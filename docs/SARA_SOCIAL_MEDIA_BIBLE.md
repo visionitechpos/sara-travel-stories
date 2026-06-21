@@ -66,10 +66,9 @@ Examples:
 Instagram is for visual moments and short reflections.
 
 **Content type:**
-* Behind-the-scenes moments
-* Still frames from episodes
+* Travel moments and still frames from episodes
 * Short text reflections (as captions)
-* Reels: short cuts from episodes or standalone moments
+* Reels: short cuts from episodes or standalone travel moments
 
 **Caption style:**
 * 2-4 sentences maximum for primary text.
@@ -156,6 +155,41 @@ Primary growth levers:
 1. Episodes that teach something genuinely interesting.
 2. Locations that are underrepresented in existing travel content.
 3. A voice and perspective that feels different from standard travel content.
+
+---
+
+## Subtitle Policy
+
+### Language
+
+All subtitle tracks are in Arabic by default.
+
+Arabic subtitles must match Sara's spoken Hejazi dialect — not be transcribed into MSA. Subtitle text should reflect what Sara actually says, including colloquial forms (بس، يعني، إيش), not formal equivalents.
+
+### Platform Requirements
+
+| Platform | Subtitle Requirement |
+|----------|---------------------|
+| YouTube | Arabic subtitles required on all episodes |
+| Instagram Reels | Arabic subtitles on-screen or as auto-captions |
+| TikTok | Arabic subtitles always on — hard-burned preferred for reliability |
+
+### Review Requirement
+
+Auto-generated Arabic subtitles from AI platforms must be manually reviewed before publishing.
+
+Common auto-caption errors in Arabic:
+* Colloquial words transcribed as wrong MSA equivalents
+* Proper nouns misspelled (البلد القديم, الرواشين)
+* Sentence boundaries placed incorrectly
+
+A subtitle track that contradicts what Sara is saying breaks the viewer's trust. Review every track.
+
+### English Subtitles
+
+English subtitles are optional and secondary. If added, they are a translation, not a replacement.
+
+Do not use English subtitles as the default or primary track.
 
 ---
 

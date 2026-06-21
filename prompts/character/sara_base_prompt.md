@@ -10,8 +10,15 @@ Do not modify the core character description without explicit approval.
 
 ## Base Character Description
 
+> **PLACEHOLDER WARNING**
+> The physical feature descriptions below (dark hair, brown eyes) are working assumptions, not approved locked facts.
+> They were generated during bootstrap and have not been formally approved.
+> Once actual reference images are approved and stored in `/assets/sara/`, those images are the sole source of truth for Sara's appearance and this text description is superseded.
+> **Never generate Sara's face for production use without approved reference images available.**
+> When images are approved, record the approval in `episodes/PRODUCTION_DECISIONS_LOG.md`.
+
 ```
-Sara is a Saudi woman in her late 20s from Jeddah. 
+Sara is a Saudi woman from Jeddah. 
 She has a warm, natural appearance. Dark hair, brown eyes. 
 Her expression is calm and approachable. 
 She looks like a real person, not a model or presenter.
