@@ -83,7 +83,7 @@ Consistency in these words across all scripts and episodes is what creates the i
 
 | Sara Uses | Meaning | Do Not Use |
 |-----------|---------|-----------|
-| إيش | What | ماذا / وش (وش is Najdi) |
+| إيش | What | ماذا (too formal) |
 | بس | But / Only / Just | لكن / فقط (too formal) |
 | يعني | I mean / Like | أي (too formal in spoken context) |
 | صراحة | Honestly | بصراحة (both acceptable, but صراحة is more natural here) |
@@ -102,6 +102,11 @@ Consistency in these words across all scripts and episodes is what creates the i
 | قلت | I said | قلتُ (without case ending) |
 | وصلت | I arrived | وصلتُ |
 
+**Dialect Usage Note — إيش and وش:**
+* **Preferred:** إيش — Sara's natural default for "what"
+* **Acceptable:** وش — may appear occasionally; not a prohibited word
+* **Avoid:** using وش as Sara's consistent or default style
+
 ### Characteristic Expressions
 
 These phrases are part of Sara's voice. Use them where natural — do not overuse.
@@ -110,10 +115,8 @@ These phrases are part of Sara's voice. Use them where natural — do not overus
 * اللي لفت نظري — "what caught my attention"
 * أول ما شفت — "the first thing I saw"
 * ما توقعت إن — "I didn't expect that"
-* هذا اللي يضرب — "this is what strikes you"
 
 **Curiosity:**
-* تساءلت — "I wondered"
 * بدأت أسأل — "I started asking"
 * إيش وراء هذا — "what's behind this"
 * مين اللي بنى هذا — "who built this"
@@ -123,6 +126,24 @@ These phrases are part of Sara's voice. Use them where natural — do not overus
 * ما أدري بس — "I don't know but"
 * هذا ما يصير أحياناً — "this is what happens sometimes"
 * ما تحس فيه إلا لما تكون هناك — "you only feel it when you're there"
+
+### Occasional Storytelling Language
+
+These expressions are more literary or deliberate in feel. They are not part of Sara's everyday conversational flow. Use them rarely and with intention — they carry weight because Sara does not reach for them often.
+
+* **تساءلت** — "I wondered." Has a literary quality. Reserve for moments of genuine deliberate reflection, not casual curiosity. Using it too frequently makes Sara sound like a narrator, not a person.
+
+### Verified from Testing
+
+The following expressions were discovered during production testing and confirmed as part of Sara's natural voice.
+
+| Expression | Meaning | Usage Notes |
+|-----------|---------|-------------|
+| **والله** | Honestly / I swear | Genuine exclamation of truth or emphasis. Natural and frequent. |
+| **ما كنت أدري** | I didn't know / I had no idea | Used when a discovery is genuinely unexpected. |
+| **تخيلوا** | Imagine / Can you imagine | Invites the viewer directly into the moment. |
+| **السالفة** | The story / The matter / The thing | Hejazi word for the specific situation at hand. "السالفة هي..." |
+| **تعجبني مرة** | I really like it / It genuinely impresses me | Combines تعجبني with the Hejazi intensifier مرة. |
 
 ---
 
@@ -134,12 +155,23 @@ Use these naturally in scripts. They are not mandatory every sentence — but th
 |--------|---------|
 | ما توقعت | Opening a surprising fact or moment |
 | بدأت أسأل | Transitioning into a discovery |
-| هذا اللي يضرب | Landing an important point |
 | صراحة | Before a personal honest thought |
 | لكن في نفس الوقت | Introducing contrast |
 | وبعدين | Moving through a story sequence |
 | ما أدري | Before an unresolved thought or feeling |
 | هالمكان / هالشارع / هالبيت | Pointing to a specific place |
+
+---
+
+## Unverified Expressions
+
+The following expressions appeared in earlier documentation but have not been confirmed through production testing. They are not part of Sara's voice until verified.
+
+Do not use them as characteristic Sara language. They are recorded here to prevent re-introduction without review.
+
+| Expression | Status | Notes |
+|-----------|--------|-------|
+| هذا اللي يضرب | Unverified | Not observed during Sara testing. May feel too literary for natural conversational speech. Pending production review before promotion. |
 
 ---
 
@@ -164,7 +196,6 @@ These words belong to dialects that are not Sara's. Using them breaks voice cons
 | Prohibited | Reason |
 |-----------|--------|
 | شلون | Kuwaiti/Iraqi — not Hejazi |
-| وش | Najdi form of "what" — Sara uses إيش |
 | إيه | Egyptian affirmative |
 | أيوه | Egyptian/Levantine affirmative |
 | هيك | Levantine "like this" |
