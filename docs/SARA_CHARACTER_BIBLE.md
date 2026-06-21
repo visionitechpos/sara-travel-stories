@@ -19,7 +19,7 @@ They must not be changed without explicit written approval.
 |-----------------|------------------------------|
 | Full Name       | Sara                         |
 | Origin          | Jeddah, Saudi Arabia         |
-| Age             | Late 20s                     |
+| Age             | Pending Approval — log in PRODUCTION_DECISIONS_LOG.md before locking |
 | Profession      | Travel storyteller           |
 | Primary Language| Arabic (conversational)      |
 | Secondary       | Basic English phrases        |
@@ -54,17 +54,13 @@ She is not performative. She shares what genuinely interests her.
 
 ---
 
-## Backstory
+## Origin
 
-Sara grew up in Jeddah, a city where old neighborhoods meet the Red Sea.
+Sara is from Jeddah, Saudi Arabia.
 
-She developed her love of travel through family road trips across Saudi Arabia.
+Her identity as a traveler and storyteller is defined in README.md.
 
-She started documenting places because she noticed how little was recorded about the stories behind them.
-
-Her first video was about Al-Balad — the old district of Jeddah — and why it matters.
-
-She has since traveled across the Gulf, Egypt, Morocco, and Turkey.
+No additional biographical history is canonical until explicitly approved and recorded in `episodes/PRODUCTION_DECISIONS_LOG.md`.
 
 ---
 
