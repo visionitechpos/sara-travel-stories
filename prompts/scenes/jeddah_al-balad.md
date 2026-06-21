@@ -17,10 +17,12 @@ Reference images: `/references/jeddah/al-balad/`
 LOCATION: Al-Balad historic district, Jeddah, Saudi Arabia
 
 ENVIRONMENT DESCRIPTION:
-Narrow alley between old coral-stone buildings, 3-4 stories tall.
+Narrow alley between old coral-stone buildings, 5-7 stories tall with a narrow profile.
+The height creates a canyon-like feeling — sunlight only reaches the alley floor at certain times.
 Wooden Rawasheen project outward from upper floors, casting latticed shadows.
 Walls are weathered ochre and dusty white. Old iron doors and faded paint.
 The alley curves slightly ahead — the end is not visible.
+A distant sound of daily life — a door closing, someone calling from above.
 
 TIME OF DAY: Golden hour AM
 
@@ -88,9 +90,9 @@ LOCATION: Al-Balad rooftop, Jeddah, Saudi Arabia
 
 ENVIRONMENT DESCRIPTION:
 Old rooftop looking out over Al-Balad's roofscape.
-Irregular rooflines, Rawasheen projecting at different heights.
+Irregular rooflines, 5-7 story buildings with Rawasheen projecting at different heights.
 In the distance, glimpse of modern Jeddah skyline contrasting with the old city below.
-Low stone parapet, crumbling at edges.
+Low stone parapet, worn but solid. Satellite dishes and water tanks on nearby rooftops — signs of a neighborhood still in active use.
 
 TIME OF DAY: Golden hour PM
 

@@ -58,28 +58,45 @@ Jeddah is Sara's home city and the default starting point for the project.
 ### Al-Balad (Historic District)
 
 * UNESCO World Heritage Site
-* Coral-stone buildings with wooden Rawasheen (latticed bay windows)
-* Narrow winding alleys
-* Faded colors: ochre, sand, dusty white
-* Old merchant houses, some restored, some in decay
+* Coral-stone buildings with wooden Rawasheen (latticed bay windows), typically 5–7 stories tall with a narrow profile — taller than most traditional Middle Eastern architecture
+* Narrow alleys that feel canyon-like due to the height-to-width ratio of the buildings
+* Faded colors: ochre, sand, dusty white, traces of blue and green on doors and window frames
+* Old merchant houses — some restored, some in original condition, some awaiting restoration
 * The smell of incense and old wood is part of the atmosphere
-* Reference folder: `/references/jeddah/al-balad/`
+* Reference folder: `/references/jeddah/al-balad/` — create this subfolder before producing Al-Balad content
+
+#### Al-Balad: Living Neighborhood Rule
+
+Al-Balad is not a museum. It is not a ruin. It is a living, inhabited neighborhood.
+
+People live in the historic buildings. There are families, elderly residents, small merchants, craftsmen, children. Street vendors operate in certain lanes. Cats are everywhere. Motorcycles are parked in alleys. Laundry hangs from some windows. Satellite dishes appear on rooftops alongside the Rawasheen.
+
+This everyday life coexisting with architecture that is over a thousand years old is the most important story about Al-Balad.
+
+**Production rule:** All Al-Balad environments must include at least one sign of active habitation. An empty alley with no signs of life looks like a film set, not a real neighborhood.
+
+**Avoid:**
+* Crumbling ruins aesthetic
+* Completely empty environments
+* Abandoned or derelict framing
+* Any visual language that suggests Al-Balad is dying or deserted
 
 ### Jeddah Corniche
 
 * Long coastal promenade along the Red Sea
 * Wide open sky, sea breeze, palm trees
-* King Fahd Fountain visible from many points
-* People walking, families, movement
-* Light is best at golden hour and early morning
-* Reference folder: `/references/jeddah/corniche/`
+* King Fahd Fountain visible from the northern Corniche — not from all points; only reference it when the scene location is correct
+* People walking, families, movement — the Corniche is active at most hours
+* Red Sea color near Jeddah: clear turquoise in shallow water shifting to deep blue offshore — not generic blue-green
+* Light is best at golden hour AM and PM
+* Reference folder: `/references/jeddah/corniche/` — create this subfolder before producing Corniche content
 
 ### Al-Shallal Area / North Jeddah
 
 * Modern face of the city
 * Wide roads, malls, sea views
 * Contrast with Al-Balad
-* Reference folder: `/references/jeddah/north/`
+* Reference folder: `/references/jeddah/north/` — create this subfolder before producing North Jeddah content
 
 ---
 
