@@ -6,6 +6,15 @@ This document defines how episodes are produced, reviewed, and improved.
 
 Following these rules prevents quality drift and maintains consistency over time.
 
+This document is part of Sara Content System v1. It operates in conjunction with:
+* `docs/SARA_PERSONA_BIBLE.md` — who Sara is
+* `docs/STORY_FRAMEWORK.md` — how Sara discovers and tells a story
+* `docs/STORY_TYPES.md` — how to classify the narrative question before writing
+* `docs/STORY_RESEARCH_RULES.md` — how to research a story before production
+* `docs/STORY_FACT_CHECKING.md` — how to verify factual claims before production
+* `docs/SARA_LANGUAGE_BIBLE.md` — how Sara speaks
+* `docs/SARA_VOICE_BIBLE.md` — how Sara sounds
+
 ---
 
 ## The Improvement Loop
@@ -47,47 +56,58 @@ Changing multiple variables simultaneously makes it impossible to know what fixe
 ## Episode Production Stages
 
 ### Stage 1 — Concept
-* Define the story.
-* Identify the location.
-* Write the core question the episode answers.
-* Confirm the episode fits Sara's identity and project vision.
+* Identify the subject and location.
+* Complete research stages 1 and 2 from STORY_RESEARCH_RULES.md — survey and story discovery.
+* Define the narrative question (the genuine question Sara wants to follow).
+* Identify the story type from STORY_TYPES.md. A subject without a story type has not found its story yet.
+* Confirm the episode fits Sara's identity and project vision (see SARA_PERSONA_BIBLE.md).
+* **Gate:** Do not proceed without a clear narrative question and identified story type.
 
-### Stage 2 — Script
-* Write the first draft.
+### Stage 2 — Research and Fact Foundation
+* Complete research stages 3 and 4 from STORY_RESEARCH_RULES.md — thread research and gap identification.
+* Map all known facts, uncertain facts, and gaps before writing begins.
+* Identify any claims that will need Tier 1 or Tier 2 sources before the script is finalized.
+* **Gate:** Do not proceed to script without the gap map complete.
+
+### Stage 3 — Script
+* Write the first draft following STORY_FRAMEWORK.md — discovery before telling, context when the thread requires it.
 * Review against SARA_LANGUAGE_BIBLE.md.
 * Read the script out loud.
-* Revise until every sentence sounds natural.
+* Revise until every sentence sounds natural in Hejazi Arabic.
+* Complete the full fact-check workflow from STORY_FACT_CHECKING.md.
 * Finalize script.
+* **Gate:** No script proceeds to voice production without a completed fact-check record.
 
-### Stage 3 — Visual Production
-* Gather reference images for the location.
-* Define key shots.
+### Stage 4 — Visual Production
+* Gather reference images for the location. File in the correct `/references/` subfolder.
+* Define key shots aligned to the story's thread — not a location tour.
 * Generate visuals.
-* Review visuals for environment consistency.
-* Review Sara's appearance for character consistency.
+* Review visuals against SARA_ENVIRONMENT_BIBLE.md for location accuracy.
+* Review Sara's appearance for character consistency against locked assets.
 
-### Stage 4 — Voice Production
+### Stage 5 — Voice Production
 * Generate voice from approved voice model.
-* Review against SARA_VOICE_BIBLE.md.
+* Review against SARA_VOICE_BIBLE.md — pronunciation, pace, accent preservation.
 * If issues found — fix the script or speech direction, not the voice model.
 * Finalize voice.
 
-### Stage 5 — Assembly
+### Stage 6 — Assembly
 * Combine visuals and voice.
-* Review pacing.
+* Review pacing — does the story breathe at the right moments?
 * Add music if applicable (see music rules below).
 * Final review pass.
 
-### Stage 6 — Review and Approval
+### Stage 7 — Review and Approval
 * Watch the episode as a viewer, not as a producer.
 * Check the episode review checklist.
 * Document any issues found.
 * Approve or return to relevant stage.
 
-### Stage 7 — Documentation
+### Stage 8 — Documentation
 * Update episode log with production notes.
 * Document any new rules or decisions made during production.
-* File reference images in the correct folder.
+* File fact-check record with episode log.
+* Record any significant production decisions in `PRODUCTION_DECISIONS_LOG.md`.
 
 ---
 
@@ -101,10 +121,14 @@ Before an episode is approved for publishing:
 - [ ] Sara's personality comes through in the script
 
 **Story**
-- [ ] The episode tells a clear story
-- [ ] There is something interesting or unexpected in the story
-- [ ] The opening creates immediate interest
-- [ ] The closing is complete, not just an ending
+- [ ] The episode has a clear narrative question (not just a subject)
+- [ ] The story type was identified before writing (from STORY_TYPES.md)
+- [ ] The opening begins in a specific moment — no introductory background, no greeting
+- [ ] Context is delivered when the thread requires it, not front-loaded
+- [ ] The story contains something unexpected — a genuine discovery
+- [ ] The human dimension is present — a specific person, historical or current
+- [ ] The closing opens something rather than concluding — the viewer is still thinking
+- [ ] All factual claims are verified or honestly framed as uncertain (fact-check complete)
 
 **Language**
 - [ ] All dialogue follows SARA_LANGUAGE_BIBLE.md
@@ -147,11 +171,13 @@ Music is supporting, not decorative.
 ## Version Control Rules
 
 * Commit in small, reviewable steps.
-* Commit message format: `type: short description`
-  * `docs:` — documentation changes
-  * `feat:` — new episode or template
-  * `fix:` — corrections to existing content
-  * `refactor:` — restructuring without content change
+* Commit message format: `type(scope): short description`
+  * `docs(bible):` — changes to character, voice, language, environment, or persona bibles
+  * `docs(story-engine):` — changes to story framework, types, research, or fact-checking documents
+  * `docs(production):` — changes to production rules or decision log
+  * `feat(episode):` — new episode, template, or prompt
+  * `fix(content):` — corrections to existing scripts or episode content
+  * `fix(docs):` — corrections to documentation
   * `chore:` — folder structure, file moves, non-content work
 
 * Do not commit large unreviewed batches.
