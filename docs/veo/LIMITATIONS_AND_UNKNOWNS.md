@@ -22,6 +22,26 @@ Veo generates individual clips, not long-form video. Maximum per generation is 8
 
 ---
 
+### Generated videos are deleted after 2 days
+
+`[CONFIRMED LIMITATION]`
+
+Veo stores generated videos on Google's servers for 2 days only. After 48 hours, the video is deleted and cannot be recovered.
+
+**Impact on Sara:** Every accepted clip must be downloaded immediately after generation. Do not rely on server storage. The production workflow must include a download step before any clip is considered secured.
+
+---
+
+### Generation time varies from 11 seconds to 6 minutes
+
+`[CONFIRMED LIMITATION]`
+
+Minimum generation time per clip is approximately 11 seconds. During peak usage hours, generation can take up to 6 minutes per clip.
+
+**Impact on Sara:** Episode production time cannot be calculated as a fixed formula. A 30-clip episode could take 6 minutes (off-peak) to 3 hours (peak). Production sessions should be planned with buffer time.
+
+---
+
 ### Audio cannot be disabled
 
 `[CONFIRMED LIMITATION]`

@@ -108,17 +108,19 @@ State audio as separate elements: dialogue, SFX (sound effects), and ambient noi
 
 ---
 
-## Prompt Length
+## Prompt Length and Limits
 
 `[OFFICIAL]`
 
 Both long and short prompts can work. The recommendation is to experiment.
 
+**Hard limit: 1,024 tokens per prompt.** This is the maximum accepted by the API. Sara's Standard Prompt Block (character descriptor + audio environment + technical specs) must fit within this limit along with the scene-specific content.
+
 `[INFERENCE]`
 
 Short prompts work when the subject and scene are simple. Long prompts work better when character specificity, atmosphere, and audio all need to be controlled simultaneously.
 
-For Sara — a specific character in specific locations delivering specific dialogue — longer prompts with detailed character descriptions will generally produce better consistency.
+For Sara — a specific character in specific locations delivering specific dialogue — longer prompts with detailed character descriptions will generally produce better consistency. Monitor token count: the Standard Prompt Block + scene description + dialogue should stay comfortably under 1,024 tokens.
 
 ---
 
@@ -133,6 +135,24 @@ Veo includes a built-in prompt rewriter that modifies prompts before generation.
 The prompt rewriter may alter character descriptions, dialogue, or style cues in ways that affect consistency across clips. For production use with a specific character (Sara), disabling the prompt rewriter gives more direct control.
 
 **Recommendation:** Disable the prompt rewriter and take full ownership of prompt construction. This is more work upfront and produces more predictable results across episodes.
+
+---
+
+## Resolution and Duration Constraints
+
+`[OFFICIAL]`
+
+Default resolution is **720p** unless explicitly specified. To generate at 1080p or 4K, the duration must be 8 seconds — shorter durations are not supported at higher resolutions.
+
+| Resolution | Requires | Available on |
+|------------|---------|-------------|
+| 720p | Any duration | All models |
+| 1080p | 8 seconds only | Veo 3.1, 3.1 Fast |
+| 4K | 8 seconds only | Veo 3.1, 3.1 Fast |
+
+`[INFERENCE]`
+
+For Sara production: always request 1080p at minimum. This requires 8-second clips — which is already the required duration when using reference images. The two constraints align: reference images + 1080p = always 8 seconds.
 
 ---
 

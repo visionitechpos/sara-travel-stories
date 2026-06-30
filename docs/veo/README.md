@@ -19,11 +19,11 @@ This is a living document. Update it when production experiments produce new fin
 
 | Model | Status | Key Capability |
 |-------|--------|---------------|
-| Veo 2 | Deprecated (June 30, 2026) | Stable baseline; still used for object add/remove |
-| Veo 3 | Available | Native audio+video; first generation with dialogue |
-| Veo 3.1 | Latest (Preview) | Improved ingredients/consistency; 4K; better audio |
-| Veo 3.1 Fast | Preview | Faster generation; same features as 3.1 |
-| Veo 3.1 Lite | Preview | Limited to 720p; no 4K; subset of features |
+| Veo 2 | Legacy | Still used internally for object add/remove tools only |
+| Veo 3.0 (`veo-3.0-generate-001`) | **Deprecated** | Replaced by Veo 3.1 family |
+| Veo 3.1 | Active (Preview) | Improved consistency; 4K; reference images; better audio |
+| Veo 3.1 Fast | Active (Preview) | Faster generation; same features as 3.1 including reference images |
+| Veo 3.1 Lite | Active (Preview) | Limited to 720p; no 4K; no reference images |
 
 **Model IDs (Gemini API):**
 - `veo-3.1-generate-preview`

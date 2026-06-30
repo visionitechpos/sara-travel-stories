@@ -14,7 +14,7 @@ Character consistency is not automatic. It requires deliberate engineering on ev
 
 `[OFFICIAL]`
 
-Ingredients to Video is Veo 3.1's reference image feature. It allows up to 3 reference images per generation to anchor character appearance, scene setting, and object consistency.
+Ingredients to Video is a reference image feature available in Veo 3.1 and Veo 3.1 Fast. It allows up to 3 reference images per generation to anchor character appearance, scene setting, and object consistency.
 
 **What it maintains:**
 - Character facial appearance and identity
@@ -33,7 +33,7 @@ Ingredients to Video is Veo 3.1's reference image feature. It allows up to 3 ref
 
 - Maximum: 3 reference images per request
 - When reference images are used: duration must be 8 seconds (not 4 or 6)
-- Available in Veo 3.1 only (not Veo 3.1 Lite)
+- Available in Veo 3.1 and Veo 3.1 Fast — not available in Veo 3.1 Lite
 - Audio generation is included with Ingredients to Video
 
 `[INFERENCE]`
