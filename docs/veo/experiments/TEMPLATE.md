@@ -1,11 +1,11 @@
-# EXP-[ID] — [Short Title]
+# EXP-[NAMESPACE]-[NUMBER] — [Short Title]
 
 ## Metadata
 
 | Field | Value |
 |-------|-------|
-| **Experiment ID** | EXP-[ID] |
-| **Series** | [A / B / C / D / E] |
+| **Experiment ID** | EXP-[NAMESPACE]-[NUMBER] |
+| **Namespace** | [VEO / TTS / STORY / CAMERA / EDIT] |
 | **Status** | `PLANNED` |
 | **Date run** | — |
 | **Hypothesis source** | [Link or reference to the UNKNOWN or HYPOTHESIS this tests] |
@@ -131,6 +131,24 @@ After running, check each item and fill in what was actually observed:
 | [KN-XXX — description] | `OBSERVATION` |
 
 *If no knowledge was promoted from this experiment, write "None — single experiment observation only."*
+
+---
+
+## Repository Impact
+
+Which repository documents should be updated based on this experiment's findings?
+
+| Document | Update required? |
+|----------|-----------------|
+| `docs/veo/KNOWLEDGE_LOG.md` | Yes / No |
+| `docs/veo/SARA_PRODUCTION_GUIDE.md` | Yes / No |
+| `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` | Yes / No |
+| `docs/SARA_VOICE_BIBLE.md` | Yes / No |
+| `docs/SARA_LANGUAGE_BIBLE.md` | Yes / No |
+| `prompts/` | Yes / No |
+| `episodes/PRODUCTION_DECISIONS_LOG.md` | Yes / No |
+
+*Fill in after Conclusion. Update documents only after knowledge is validated, not from a single observation.*
 
 ---
 

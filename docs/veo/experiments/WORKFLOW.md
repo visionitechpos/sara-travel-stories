@@ -29,15 +29,17 @@ Copy `TEMPLATE.md` into this folder.
 Name the file using this convention:
 
 ```
-EXP-[SERIES][NUMBER].md
+EXP-[NAMESPACE]-[NUMBER].md
 ```
 
-Series assignments:
-- **A** — Native audio and speech
-- **B** — Character and visual consistency
-- **C** — Subtitle and text behavior
-- **D** — Dialect and language accuracy
-- **E** — Prompt structure and optimization
+Namespace assignments:
+- **EXP-VEO** — Veo generation behavior (audio, video, character, prompts)
+- **EXP-TTS** — Text-to-speech and voice generation
+- **EXP-STORY** — Story structure and narrative testing
+- **EXP-CAMERA** — Camera direction and cinematography
+- **EXP-EDIT** — Post-production and assembly
+
+Number sequentially within each namespace: `EXP-VEO-001`, `EXP-VEO-002`, etc.
 
 Fill every field in the template before running. A half-designed experiment produces unusable observations.
 
@@ -71,12 +73,17 @@ Mark experiment status as `COMPLETE` or `INCOMPLETE`.
 
 A single experiment produces an **observation**, not knowledge.
 
-An observation becomes **validated** when:
+Validation is an engineering decision based on the weight of evidence — not a fixed count of experiments.
 
-- It appears consistently in 2 or more separate experiments, OR
-- It is explicitly confirmed in official documentation
+Some findings may be validated by one decisive experiment with a clear, unambiguous result. Others may require several experiments across different conditions before the evidence is sufficient. The question to ask is: *Is the evidence strong enough to act on this in production?*
 
-If an observation from one experiment is contradicted by a later experiment, both entries must be noted and the validation status updated.
+Factors that increase confidence:
+- The observation appears consistently across repeated experiments
+- The observation holds under varying conditions
+- The observation is explicitly confirmed in official documentation
+- No contradicting evidence exists
+
+If an observation from one experiment is contradicted by a later experiment, both must be noted and the validation status updated. Contradictions are data — they prevent premature promotion to knowledge.
 
 ---
 
@@ -121,8 +128,8 @@ Each production rule update must reference the knowledge log entry that supports
 
 | Status | Meaning |
 |--------|---------|
-| `OBSERVATION` | Seen in this experiment only — not yet validated |
-| `VALIDATED` | Confirmed across 2+ experiments or official documentation |
+| `OBSERVATION` | Seen in this experiment — not yet validated |
+| `VALIDATED` | Sufficient experimental evidence to act on in production |
 | `REJECTED` | Contradicted by a subsequent experiment |
 | `PROMOTED` | Elevated to a production rule (see reference in knowledge log) |
 
