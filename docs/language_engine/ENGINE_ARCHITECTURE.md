@@ -66,18 +66,14 @@ Contains evolving production knowledge — discoveries made during episode produ
 ```
 Discovery
     ↓
-Observation       ← Noticed during production. Documented, not yet confirmed.
+Observation    ← Noticed during production. Documented, not yet confirmed.
     ↓
-Validated         ← Observed consistently across 2+ episodes.
+Validated      ← Confirmed consistently across 2+ episodes. Applied by default.
     ↓
-Standard          ← Established as Sara's natural pattern. Applied by default.
-    ↓
-Rule              ← Only after explicit human approval and documentation.
+Rule           ← Only after explicit human approval and documentation.
 ```
 
-**Critical constraint:**
-
-Nothing moves up this lifecycle automatically. Every promotion requires a human decision. The step from Standard to Rule is especially protected — it requires explicit approval and a log entry.
+Nothing moves up this lifecycle automatically. Every promotion requires a human decision. The step from Validated to Rule is especially protected — it requires explicit approval and a log entry.
 
 **Where knowledge lives:**
 
@@ -93,7 +89,7 @@ The Knowledge Layer improves Sara's voice. It is the ceiling that rises over tim
 
 Rules constrain. Knowledge refines.
 
-Neither layer replaces the other.
+Neither layer replaces the other. In every module, Rules Layer constraints are checked first. Knowledge Layer standards refine what passes.
 
 ---
 
@@ -121,8 +117,6 @@ Neither layer replaces the other.
 
 Processing flows upward. The foundation must be stable before higher modules run.
 
-Every module reads from both layers: it checks against the Rules Layer first, then applies current Knowledge Layer standards.
-
 ---
 
 ## Module Definitions
@@ -142,8 +136,6 @@ Every module reads from both layers: it checks against the Rules Layer first, th
 **Does not own:**
 * Dialect (Module 2)
 * Storytelling structure (Module 7)
-
-**Layer relationship:** This module is almost entirely Rules Layer. Character identity does not evolve through observation — it is protected.
 
 **Source of truth:** `docs/SARA_PERSONA_BIBLE.md`
 
@@ -167,13 +159,9 @@ Every module reads from both layers: it checks against the Rules Layer first, th
 
 **Google AI — scope and boundary:**
 
-Google AI is called once inside this module. Its job is transformation: converting content that arrives in MSA or any other register into natural Hejazi Arabic aligned with Sara's voice.
+Google AI is called once inside this module. Its job is transformation only: converting content that arrives in MSA or any other register into natural Hejazi Arabic aligned with Sara's voice.
 
-Google AI does not validate the result. Validation is the module's responsibility, applied using the Rules Layer (prohibited words, forbidden constructions) and the Knowledge Layer (verified expressions, Standard patterns).
-
-If Google AI produces output that violates a rule, the module rejects it and requests a revised transformation. The AI serves the module — not the other way around.
-
-**Layer relationship:** Rules Layer defines what is forbidden. Knowledge Layer defines what is preferred and natural. Both are applied after transformation.
+Google AI does not validate the result. Validation is the module's responsibility — Rules Layer catches forbidden constructions, Knowledge Layer applies verified expressions and validated patterns. If the transformation output violates a rule, the module rejects it and requests a revised transformation.
 
 **Source of truth:** `docs/SARA_LANGUAGE_BIBLE.md`
 
@@ -195,8 +183,6 @@ If Google AI produces output that violates a rule, the module rejects it and req
 * Specific vocabulary (Module 2)
 * Pacing and pause placement (Module 6)
 
-**Layer relationship:** Rules Layer defines what Sara never does (performed emotions, presenter patterns). Knowledge Layer accumulates what natural human behavior looks like in Sara's voice across episodes.
-
 **Source of truth:** `docs/SARA_PERSONA_BIBLE.md` — Behavioral Rules section
 
 **Validation question:** Would a viewer believe this was said by a real person in a real moment?
@@ -216,8 +202,6 @@ If Google AI produces output that violates a rule, the module rejects it and req
 **Does not own:**
 * Character identity (Module 1)
 * Research verification — fact-checking is upstream of the engine
-
-**Layer relationship:** Primarily Knowledge Layer — context patterns are discovered through production and accumulate over time. Rules Layer contributes environment constraints from SARA_ENVIRONMENT_BIBLE.md.
 
 **Source of truth:** `docs/SARA_ENVIRONMENT_BIBLE.md`, `docs/STORY_TYPES.md`
 
@@ -240,8 +224,6 @@ If Google AI produces output that violates a rule, the module rejects it and req
 * Vocabulary choices (Module 2)
 * Pause placement (Module 6)
 
-**Layer relationship:** Mostly Rules Layer — these constraints are deterministic and do not change through observation.
-
 **Source of truth:** `docs/SARA_VOICE_BIBLE.md`, `docs/SARA_LANGUAGE_BIBLE.md` — Pronunciation Notes section
 
 **Validation question:** Can every sentence be read aloud naturally in one breath?
@@ -261,8 +243,6 @@ If Google AI produces output that violates a rule, the module rejects it and req
 **Does not own:**
 * What the sentences say (Modules 1–5)
 * Narrative structure (Module 7)
-
-**Layer relationship:** Rules Layer provides pace targets and marker syntax. Knowledge Layer accumulates where pauses land most effectively — this improves with each episode.
 
 **Source of truth:** `docs/SARA_VOICE_BIBLE.md` — Pace and Rhythm section
 
@@ -284,8 +264,6 @@ If Google AI produces output that violates a rule, the module rejects it and req
 * Character voice (Modules 1–3)
 * Story type classification — defined upstream before the engine runs
 
-**Layer relationship:** Rules Layer enforces structure requirements from STORY_FRAMEWORK.md. Knowledge Layer accumulates what makes closings, discoveries, and openings land most powerfully in Sara's specific context.
-
 **Source of truth:** `docs/STORY_FRAMEWORK.md`, `docs/STORY_TYPES.md`
 
 **Validation question:** Does the story move like a discovery — or like a presentation?
@@ -306,9 +284,7 @@ If Google AI produces output that violates a rule, the module rejects it and req
 * The content or language of the output (Modules 1–7)
 * Veo prompt generation itself — that is downstream
 
-**Layer relationship:** Entirely Rules Layer. Output format is deterministic — defined once, applied consistently.
-
-**Source of truth:** Defined in Sprint 002 and beyond.
+**Source of truth:** Defined in Sprint 002.
 
 **Validation question:** Is the output structured so that AI generation produces consistent, predictable results?
 
@@ -318,12 +294,8 @@ If Google AI produces output that violates a rule, the module rejects it and req
 
 1. **Foundation before superstructure.** Module 1 must be stable before Module 2 runs. Higher modules may return content to a lower module for correction — they do not bypass it.
 
-2. **Rules Layer checked first.** In every module, Rules Layer constraints are applied before Knowledge Layer standards. A rule violation stops processing. Knowledge standards refine what passes.
+2. **One owner per concern.** If a question about output belongs to two modules, one of them is wrong. Resolve ownership before implementation.
 
-3. **One owner per concern.** If a question about output belongs to two modules, one of them is wrong. Resolve ownership before implementation.
+3. **Bibles are read-only inputs.** Modules read from the bibles. They do not modify them. Bible updates are Content System changes — not engine changes.
 
-4. **Bibles are read-only inputs.** Modules read from the bibles. They do not modify them. Bible updates are Content System changes — not engine changes.
-
-5. **Google AI is scoped to Module 2.** No other module calls an external AI. If Module 2's implementation changes, no other module is affected.
-
-6. **Knowledge promotion requires human approval.** A module may flag a pattern for potential promotion. The promotion decision is made outside the engine — by a human, documented in `PRODUCTION_DECISIONS_LOG.md`.
+4. **Knowledge promotion requires human approval.** A module may flag a pattern for potential promotion. The promotion decision is made outside the engine — by a human, documented in `PRODUCTION_DECISIONS_LOG.md`.
