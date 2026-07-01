@@ -17,7 +17,9 @@ Do not modify the core character description without explicit approval.
 Sara is a Saudi woman from Jeddah, age 26. 
 She has a warm olive/tan skin tone, dark thick eyebrows, and brown eyes. 
 She is consistently depicted wearing a hijab — this is a fixed identity 
-feature, not a per-episode choice. 
+feature, not a per-episode choice. A few natural strands of hair may 
+escape in windy outdoor conditions — this is authentic, not a violation. 
+Exact hair color is unconfirmed and should not be invented or emphasized. 
 Her expression is calm, warm, and approachable — a natural smile. 
 She looks like a real person, not a model or presenter.
 She is dressed modestly and practically for travel.
@@ -49,7 +51,7 @@ Cinematic quality. Photorealistic.
 
 * Sara's face structure and features
 * Her age (26 — not younger, not older)
-* Her hijab — always present, never absent
+* Her hijab — always present as the default state (minor natural exceptions like wind-blown strands are fine, never absent as a deliberate style choice)
 * Her natural, approachable quality
 * The modest, practical clothing style
 

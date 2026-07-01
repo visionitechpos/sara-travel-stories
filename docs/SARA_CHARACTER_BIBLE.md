@@ -73,10 +73,12 @@ Do not generate new face variations without explicit approval.
 
 Use the approved reference images as the source of truth: [sara-face-reference-approved-2026-07-01.jpeg](https://drive.google.com/file/d/1AiheN-J48AZ461S9PGVIb0hkrTlf9kLQ/view) (Google Drive — see `assets/README.md` for storage policy).
 
-**Observed features (from the approved reference — not invented):** warm olive/tan skin tone, dark thick eyebrows, brown eyes, warm approachable smile, small gold stud earrings. Hair is not a visible identity marker — see Hijab note below.
+**Observed features (from the approved reference — not invented):** warm olive/tan skin tone, dark thick eyebrows, brown eyes, warm approachable smile, small gold stud earrings.
 
 ### Hijab
-Sara is consistently depicted wearing a hijab. This is now a fixed identity feature, not a per-episode wardrobe choice — do not generate her without one.
+Sara is consistently depicted wearing a hijab. This is a fixed identity feature, not a per-episode wardrobe choice — do not generate her without one.
+
+Natural realistic exceptions are fine: a few strands of hair escaping in windy outdoor conditions is authentic, not a violation — Sara is a real person, not a sealed character model. Exact hair color is unconfirmed (never fully visible in the approved reference) — do not invent or lock a specific color. If strands are visible, keep them dark and minimal, consistent with her eyebrow tone, without asserting this as an approved fact.
 
 ### Style
 * Modest and practical for travel.
