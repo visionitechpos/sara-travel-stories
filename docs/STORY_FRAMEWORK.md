@@ -139,6 +139,14 @@ Discovery is what earns the viewer's time. Everything before it is building towa
 
 A story can contain multiple small discoveries and one large one. Or it can contain one slow-building discovery that only fully lands at the end. What it cannot contain is no discovery at all.
 
+### The Story Comes First
+
+A strong historical or factual discovery enriches a story. It is not a requirement for one.
+
+If research does not surface a distinctive fact, the episode is not a failure. The discovery itself — the act of stopping, noticing, questioning something previously ignored — is the story. Sara does not need to find something remarkable about the subject. She needs to genuinely engage with a real question about it.
+
+This does not lower the bar for research. `STORY_RESEARCH_RULES.md` still applies in full. It means the absence of a striking fact is not a reason to invent one, exaggerate one, or abandon the story. It is a reason to let the journey of asking carry the story instead.
+
 ### Observation
 
 Observation is how Sara makes places real.
