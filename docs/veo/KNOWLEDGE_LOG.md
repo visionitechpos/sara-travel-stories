@@ -59,15 +59,15 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 
 ---
 
-### KN-003 — Sara's face identity persists without an attached reference image, but wardrobe does not
+### KN-003 — Sara's face identity persists without an attached reference image; wardrobe requires an attached reference
 
 | Field | Value |
 |-------|-------|
 | **Status** | VALIDATED |
-| **Confidence** | MEDIUM (single direct test — EXP-VEO series should confirm across more shots) |
-| **Source** | Live test during ep001_fish-sculpture-obhur production — Shot 1 generated with only the location reference image attached, no Sara reference image |
+| **Confidence** | HIGH (confirmed across 2 shots: Shot 1 without wardrobe reference defaulted to base outfit; Shot 2 with Look 1 attached correctly changed the outfit) |
+| **Source** | Live tests during ep001_fish-sculpture-obhur production |
 | **Date added** | 2026-07-02 |
-| **Promoted to** | Workflow practice for `episodes/ep001_fish-sculpture-obhur/PRODUCTION_BOARD.md` — do not attach Sara's face reference image per shot |
+| **Promoted to** | Workflow practice for `episodes/ep001_fish-sculpture-obhur/PRODUCTION_BOARD.md` — face reference never needed; wardrobe reference required only when a non-default look is needed |
 
 **Observation:** When a shot was generated with only the location/sculpture reference image attached (no Sara reference image), Sara's face and identity were preserved correctly — confirming her identity is carried natively by the Veo Character, not dependent on an attached reference image per generation. However, she appeared in her default outfit (green top) rather than the approved "Look 1 — Coastal Light" wardrobe for this episode — wardrobe is not part of the auto-preserved identity and must be explicitly specified or attached when it differs from the default.
 
