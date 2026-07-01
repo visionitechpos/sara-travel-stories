@@ -22,9 +22,11 @@ assets/
 
 ## Sara Assets (LOCKED)
 
-The `/sara/` subfolder contains the approved character reference images.
+The `/sara/` subfolder should contain the approved character reference images.
 
-These are the source of truth for Sara's visual identity.
+**Sync status:** Sara has an approved Character Production inside Veo (visual identity, age 26, core features, voice, character settings) — this is the current production reference. This folder is not yet synced with it (currently empty aside from `.gitkeep`). This is a documentation/asset sync gap, not an open decision — the images or spec need to be exported from Veo and placed here, not recreated from scratch.
+
+Once synced, these files are the source of truth for Sara's visual identity.
 
 **Rules:**
 * Do not modify approved Sara images.

@@ -10,12 +10,11 @@ Do not modify the core character description without explicit approval.
 
 ## Base Character Description
 
-> **PLACEHOLDER WARNING**
-> The physical feature descriptions below (dark hair, brown eyes) are working assumptions, not approved locked facts.
-> They were generated during bootstrap and have not been formally approved.
-> Once actual reference images are approved and stored in `/assets/sara/`, those images are the sole source of truth for Sara's appearance and this text description is superseded.
-> **Never generate Sara's face for production use without approved reference images available.**
-> When images are approved, record the approval in `episodes/PRODUCTION_DECISIONS_LOG.md`.
+> **SYNC STATUS — not a placeholder**
+> Sara has an approved Character Production inside Veo — this is the current production reference (visual identity, age 26, core features, voice, character settings). This repo's copy of that reference is out of sync: the physical description below (dark hair, brown eyes) was written during bootstrap, before the Veo character existed, and has not been confirmed against it.
+> This is a documentation sync gap, not an open creative decision — do not re-derive or re-approve Sara's appearance from scratch.
+> Once the approved Veo reference images (or an accurate spec) are provided and stored in `/assets/sara/`, they become the sole source of truth here, and this text is updated to match — not the other way around.
+> The sync is recorded in `episodes/PRODUCTION_DECISIONS_LOG.md` once complete.
 
 ```
 Sara is a Saudi woman from Jeddah. 
