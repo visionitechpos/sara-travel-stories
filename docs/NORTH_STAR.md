@@ -96,3 +96,6 @@ Sara Content System bibles (Language, Voice, Persona, Story Framework) are input
 
 **D-08 — Production experiments drive architecture**
 Architecture evolves only when production experiments prove it must. If the first episode reveals a pipeline weakness, the architecture is updated. If not, it holds.
+
+**D-09 — Architecture freeze through the first 10 episodes**
+The Character Cognition Engine (Scene Experience → Perception+Persona → Emotion → Language+Voice+Expression → Dialogue → Consistency Gate) is the last architectural addition before production begins. From now until 10 episodes are complete, no new layers, files, or architectural changes are made unless production proves a real problem exists. New ideas go into Future Vision below — they are not applied. The next phase proves the system works. It does not theorize further improvements to it.

@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — Architecture Freeze Through First 10 Episodes
+
+**Decision:** The Character Cognition Engine architecture (`docs/NORTH_STAR.md` D-09) is frozen. No new architectural layers, files, or pipeline changes until 10 episodes are produced — unless production proves a specific, real problem that requires a change.
+
+**Reason:** The conceptual architecture work during PILOT_001 (Sara Dialogue Engine → Character Cognition Engine redesign, SARA_EXPRESSIONS.md) is complete for now. The project's own principle — "architecture evolves only when production experiments prove it must" (D-08) — was at risk of being violated by continued theoretical refinement before any real production had occurred. The next phase must prove the system works, not keep improving it on paper.
+
+**How to apply:** Any new architectural idea during the next 10 episodes is recorded in `docs/NORTH_STAR.md` under Future Vision, not implemented. Only a demonstrated production failure justifies revisiting this freeze.
+
+---
+
 ### 2026-06-21 — Project Bootstrap
 
 **Decision:** Established initial project structure and documentation framework.
