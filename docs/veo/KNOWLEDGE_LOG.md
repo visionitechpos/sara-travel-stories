@@ -81,6 +81,22 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 | **Date added** | 2026-07-02 |
 | **Promoted to** | `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` — new Observed Limitation |
 
+---
+
+### KN-005 — Dense Hejazi vocabulary in a sentence may pull risky phonemes (like ق) toward correct dialectal pronunciation
+
+| Field | Value |
+|-------|-------|
+| **Status** | OBSERVATION (2 contrasting data points, not yet a confirmed rule) |
+| **Confidence** | MEDIUM |
+| **Source** | Live tests during ep001_fish-sculpture-obhur production |
+| **Date added** | 2026-07-02 |
+| **Promoted to** | Not yet — needs more repetition before promoting to `SARA_VOICE_BIBLE.md` as a rule |
+
+**Observation:** In "تعرف قصة السمكة هادا؟" (low density of distinctly Hejazi markers), the ق in "قصة" was pronounced in MSA style. In "وقفت قدام السمكة الكبيرة هادي... مو أول مرة أمرّ من هنا" (higher density — هادي، مو، قدام), the ق in "وقفت"/"قدام" was pronounced correctly in Hejazi style.
+
+**Evidence summary:** Only 2 contrasting instances so far — suggestive, not conclusive. Working hypothesis for script writing in the meantime: surround phonetically risky words with strong colloquial Hejazi markers (هادي، مو، بس، يعني) rather than isolating them in an otherwise neutral sentence. Needs more repetition — particularly a controlled test of the same risky word in both a sparse and a dense Hejazi sentence — before promoting to a documented rule in `SARA_VOICE_BIBLE.md`.
+
 **Observation:** A 10-second generation option exists in the Veo interface and produced a clip successfully — this is longer than the 8-second cap in official documentation. However, the scripted dialogue (~2 seconds of natural speech) did not fill the 10-second duration, and Veo appears to have improvised additional unscripted dialogue with incorrect pronunciation to fill the remaining time.
 
 **Evidence summary:** Single test. The 10-second option's existence is confirmed directly. The hallucination-when-underfilled pattern is a first observation — needs repetition with a dialogue line deliberately sized to fill 10 seconds before treating the "10s needs longer scripts" conclusion as fully validated.
