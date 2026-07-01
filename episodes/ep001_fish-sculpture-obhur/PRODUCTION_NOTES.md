@@ -13,8 +13,8 @@ Classification standard for this episode: **Required** (production cannot start 
 | Asset | Status | Note |
 |-------|--------|------|
 | **Sara Character** | ✅ Ready | Sourced from the approved Veo Character Production (visual identity, age 26, voice, character settings). Local repo copy (`assets/sara/`) still needs syncing — tracked separately, does not block this episode. |
-| **Obhur Location Reference** | ✅ Ready | `references/jeddah/obhur/obhur-waterfront-promenade-01.png` — real photo, no rights concern. `SARA_ENVIRONMENT_BIBLE.md` entry is still not written (per standing practice: no entry from research description alone), but the image requirement for this episode is satisfied. |
-| **Fish Sculpture Reference** | ✅ Ready | Real photos confirm the sculpture is an **abstract bronze/copper artwork** — not a literal fish — two forms: a tall curved piece suggesting a fish tail arcing from the water, and a shorter triangular finned piece with a circular detail, set in a circular fountain. See `references/jeddah/obhur/obhur-fish-sculpture-sunset-01.webp` (primary, wide, no rights concern) and two supplementary night shots. This detail should inform Step 6 image prompts — do not describe it as a literal/cartoon fish. |
+| **Obhur Location Reference** | ✅ Ready | Stored in Google Drive (canonical media store — see Media Storage note below): [obhur-waterfront-promenade-01.png](https://drive.google.com/file/d/1afMvJnMjhlDePGBWuAVyv8kfVtJRFiZR/view) — real photo, no rights concern. `SARA_ENVIRONMENT_BIBLE.md` entry is still not written (per standing practice: no entry from research description alone), but the image requirement for this episode is satisfied. |
+| **Fish Sculpture Reference** | ✅ Ready | Real photos confirm the sculpture is an **abstract bronze/copper artwork** — not a literal fish — two forms: a tall curved piece suggesting a fish tail arcing from the water, and a shorter triangular finned piece with a circular detail, set in a circular fountain. Primary: [obhur-fish-sculpture-sunset-01.webp](https://drive.google.com/file/d/16KuDZ5H0DMm3pDt39hqxqPvj6K6sXMCc/view) (wide, no rights concern). Supplementary: [night-01](https://drive.google.com/file/d/1FUedAjx3cjvesvsqPW3T6Ha-cQI-gCrb/view), [night-02](https://drive.google.com/file/d/1YXXWKgzHrKdJwfG_DKLC77AvuGYnx82I/view). This detail should inform Step 6 image prompts — do not describe it as a literal/cartoon fish. |
 
 ### Recommended
 
@@ -28,7 +28,19 @@ Classification standard for this episode: **Required** (production cannot start 
 | Asset | Status | Note |
 |-------|--------|------|
 | Wide establishing shots of the broader Obhur waterfront redevelopment | Not sourced | Could strengthen the Transformation (secondary) angle visually, not required for the core story |
-| Additional clear daytime sculpture close-up | Available in `assets/temp/images.jfif`, watermarked "Khalid" | Excluded from `/references/` pending rights confirmation — clearest daylight view of the sculpture's true material color, useful for internal reference only until rights are confirmed |
+| Additional clear daytime sculpture close-up | [obhur-fish-sculpture-daylight-UNRIGHTED-watermarked.jpg](https://drive.google.com/file/d/1vJQF1kW-QNWRz-Im_TYxbom80CqV2zZb/view) | Watermarked ("Khalid") — internal reference only until rights are confirmed. Clearest daylight view of the sculpture's true material color. |
+
+---
+
+## Media Storage
+
+Starting with this episode, **all image and video assets are stored in Google Drive** (account `visionitechpos@gmail.com`), not in the git repository — a single canonical location instead of splitting storage across GitHub and Drive, per production decision (see `PRODUCTION_DECISIONS_LOG.md`).
+
+Root folder: [Sara Travel Stories - Media](https://drive.google.com/drive/folders/1iLsjK9hPsvqWdQEQiEI57Cer4DfEaE9A), mirroring the repo structure:
+- `references/jeddah/obhur/` → [Drive folder](https://drive.google.com/drive/folders/12JXKNoJDKLCN52IxbVqxL4SC9ZbLLcnr)
+- `episodes/ep001_fish-sculpture-obhur/` → [Drive folder](https://drive.google.com/drive/folders/16ditwV_rDz0SCmwJTS52KVN1rUl-qadq)
+
+The git repo continues to hold only text and documentation. This file links to Drive assets rather than local paths.
 
 ---
 
@@ -79,8 +91,8 @@ Classification standard for this episode: **Required** (production cannot start 
 | File | Location | Notes |
 |------|----------|-------|
 | Script (final) | `episodes/ep001_fish-sculpture-obhur/SCRIPT.md` | Approved |
-| Location references | `/references/jeddah/obhur/` | 4 real images collected (1 location, 3 sculpture) — Required assets satisfied |
-| Visual assets | `/assets/locations/ep001_fish-sculpture-obhur/` | Not yet created |
+| Location references | [Drive: references/jeddah/obhur/](https://drive.google.com/drive/folders/12JXKNoJDKLCN52IxbVqxL4SC9ZbLLcnr) | 4 real images collected (1 location, 3 sculpture) — Required assets satisfied |
+| Visual assets | [Drive: episodes/ep001_fish-sculpture-obhur/](https://drive.google.com/drive/folders/16ditwV_rDz0SCmwJTS52KVN1rUl-qadq) | Not yet created |
 | Voice file | | |
 | Assembled video | | |
 | Thumbnail | `/assets/thumbnails/` | |

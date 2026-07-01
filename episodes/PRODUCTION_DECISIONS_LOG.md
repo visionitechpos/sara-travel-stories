@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — Media Storage Moved to Google Drive
+
+**Decision:** All image and video assets for production are stored in Google Drive under the `visionitechpos@gmail.com` account, in a folder structure mirroring the repo (`Sara Travel Stories - Media/references/...`, `Sara Travel Stories - Media/episodes/...`). The git repository holds only text and documentation — no image or video binaries going forward.
+
+**Reason:** Anticipated storage risk as episode count grows, primarily from video (Veo clips, assembled episodes can reach hundreds of MB to GBs; git does not handle repeated large binary versions efficiently). Rather than split images and video across two systems, both are kept in one place to avoid the risk of losing track of assets.
+
+**How to apply:** New reference/production images and videos are uploaded directly to the matching Drive folder (create the folder if it doesn't exist yet, mirroring the repo path). Episode `PRODUCTION_NOTES.md` files link to the Drive files/folders instead of local repo paths. The existing images already committed to `references/jeddah/obhur/` in git predate this decision — see note below on whether they remain.
+
+---
+
 ### 2026-07-01 — Documentation Sync: Sara's Age Locked at 26
 
 **Decision:** Sara's age is 26, per a decision made prior to this session. This entry is a documentation synchronization, not a new production decision — the age itself was not reopened or renegotiated.
