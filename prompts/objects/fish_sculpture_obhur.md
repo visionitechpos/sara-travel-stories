@@ -6,46 +6,60 @@ This defines the sculpture's exact identity for every prompt involving it. Do no
 
 ---
 
-## Object Description
+## Object Description — Final, Locked
 
-Use this description as the foundation for every prompt involving this sculpture:
+Use this description verbatim as the foundation for every prompt involving this sculpture:
 
 ```
-This is an ABSTRACT bronze/copper sculpture at Obhur Waterfront, Jeddah 
-— it is NOT a literal fish. It has no mouth, no eyes, no fish-like face 
-or anatomy of any kind.
+This is an ABSTRACT bronze/copper sculpture at a waterfront plaza — it 
+is NOT a literal fish. It has no mouth, no eyes, no fish-like face, no 
+anatomical features of any kind. It is pure abstract geometric form.
 
-It consists of exactly two abstract geometric forms, set together in a 
-circular fountain basin:
-1. A tall curved form resembling a wave or tail shape, rising 
-   dramatically upward — monumental in scale, far taller than a human 
-   (see Scale Reference below)
-2. A shorter triangular form with a circular disc detail (reddish/
-   copper-toned center) on its lower section
+TWO FORMS exactly as follows:
 
-Surface texture: the tall curved form has a scalloped, overlapping 
-fish-scale-like texture across its entire surface — this is a 
-deliberate artistic detail, distinct from the abstract (non-literal) 
-overall shape.
+Form 1 — Tall curved form: approximately 12-16 meters tall, a single 
+continuous curved shape rising from a narrow base and widening slightly 
+as it arcs upward, ending in a flared, fin-like split at the top (two 
+pointed tips). The entire surface is covered in a scalloped, overlapping 
+pattern resembling fish scales — rows of curved, shingle-like ridges, 
+textured and slightly irregular, not perfectly uniform, giving a 
+weathered, hand-crafted metal texture.
 
-Material and color: weathered rust/copper-brown metal (Corten-steel-like 
-patina). A lighter tan/beige band is visible near the base of both 
-forms, closer to the waterline.
+Form 2 — Shorter triangular form: approximately 6-8 meters tall, a 
+solid triangular/sail-like shape with a subtle vertical split or seam 
+down its front face. On the lower-center section, a circular disc 
+detail is embedded into the surface — reddish/copper-toned, slightly 
+recessed or raised, roughly a meter in diameter.
 
-Fountain mechanism: water jets rise from the floor of the circular 
-basin around the perimeter of the forms — NOT from the sculpture forms 
-themselves, and never from anything resembling a mouth. At night, this 
+MATERIAL AND COLOR: weathered rust-brown / burnt-copper patina across 
+both forms, consistent with oxidized Corten-style steel. Near the base 
+of both forms, close to the waterline, there is a distinctly LIGHTER 
+tan/beige band — a visible color transition, likely from water contact 
+or mineral deposit, running horizontally around the base perimeter of 
+each form.
+
+FOUNTAIN: the two forms sit within a circular basin. Water sits calm 
+and reflective in the basin during the day. Any fountain jets present 
+must rise only from the flat floor of the basin around the perimeter 
+of the forms — never from the sculpture forms themselves, and never 
+from anything resembling a mouth or spout on the forms. At night, this 
 becomes an elaborate choreographed multi-jet fountain display across 
 the entire basin, with dynamic colored lighting (blue-lit water jets 
 observed; the sculpture forms separately lit in pink/magenta tones, 
 distinct from their natural daytime rust-brown color).
+
+LIGHTING (default/daytime): true clear daylight, neutral white 
+sunlight — not sunset, not night, not colored lighting. Show the 
+authentic rust-brown material color as it would appear at midday, 
+unless a specific shot calls for golden hour or night per the Lighting 
+Variations table below.
 ```
 
 ---
 
 ## Scale Reference
 
-Monumental scale — dramatically taller than a human adult (visually estimated well beyond a simple multiple of human height from a reference photo showing an adult standing at the base). Do not underscale this object. When generating any composition with Sara, the sculpture should dominate the frame's vertical space, not appear as a modest human-scale object.
+**Estimated (not officially documented):** Form 1 (tall curved shape) approximately 12-16 meters; Form 2 (triangular shape) approximately 6-8 meters. Derived visually from a reference photo showing an adult standing at the base — not a confirmed measurement. Monumental scale — dramatically taller than a human adult. Do not underscale this object. When generating any composition with Sara, the sculpture should dominate the frame's vertical space, not appear as a modest human-scale object.
 
 ---
 
