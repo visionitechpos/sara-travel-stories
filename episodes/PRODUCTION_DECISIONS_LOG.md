@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-02 — Visual and Voice Consistency Confirmed Across Generations
+
+**Decision:** Treat Sara's visual identity and voice as reliably consistent across separately generated Veo clips — no longer an open question.
+
+**Reason:** Direct user confirmation from real production history ("الصوت والشكل مضبوطين") resolves two previously open unknowns: reference-image identity stability over many generations, and voice consistency via reference images. The user's key insight: since consistency is not the bottleneck, script quality is the primary lever for output quality — reinforcing the existing `docs/NORTH_STAR.md` principle "Input quality drives output quality."
+
+**Files updated:** `docs/veo/LIMITATIONS_AND_UNKNOWNS.md`, `docs/veo/CHARACTER_CONSISTENCY.md`, `docs/veo/KNOWLEDGE_LOG.md` (KN-002).
+
+---
+
 ### 2026-07-02 — Native Veo Dialogue Confirmed as Production Method
 
 **Decision:** Sara speaks through Veo's native voice generation. Audio is not replaced in post-production. This closes the "Native Audio vs. Audio Replacement" question that had been open since the first Veo research phase.

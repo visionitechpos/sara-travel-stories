@@ -142,13 +142,6 @@ This requires production testing to establish acceptable drift thresholds.
 
 ## Voice Consistency
 
-`[HYPOTHESIS]`
+`[CONFIRMED BY PRODUCTION — 2026-07-02]`
 
-It is unknown whether Veo maintains the same voice across multiple clips when using the same reference images. The documentation confirms visual consistency via reference images but does not specifically address voice consistency.
-
-Experiment required: Generate 3 consecutive clips with the same reference images and the same character dialogue instruction. Evaluate whether the voice sounds like the same person across all three clips.
-
-If voice consistency is unreliable, the production strategy shifts to:
-- Generate video with dialogue via Language Engine
-- Replace Veo's native audio with a consistent external voice source
-- Align in post-production
+Veo maintains Sara's voice consistently across separately generated clips — confirmed by real production, not a controlled experiment. See `docs/veo/KNOWLEDGE_LOG.md` KN-002. The audio-replacement fallback strategy described below is no longer needed for this reason (native voice is also the chosen approach — see `SARA_PRODUCTION_GUIDE.md`).

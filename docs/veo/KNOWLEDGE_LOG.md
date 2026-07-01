@@ -47,6 +47,22 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 
 ---
 
+### KN-002 — Visual and voice identity remain stable across separate Veo generations for Sara
+
+| Field | Value |
+|-------|-------|
+| **Status** | VALIDATED |
+| **Confidence** | HIGH |
+| **Source** | Real production — multiple separately generated vlogs, per direct user confirmation ("الصوت والشكل مضبوطين") |
+| **Date added** | 2026-07-02 |
+| **Promoted to** | `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` — resolves "Reference image identity stability" and "Voice consistency via reference images" |
+
+**Observation:** Sara's face, appearance, and voice have remained consistent across multiple separately produced vlogs — not just within a single generation session. This was previously an open unknown (and, for voice, an observed limitation reported in outside research) for Veo projects generally.
+
+**Evidence summary:** Confirmed directly by the user reviewing their own production history, not a designed EXP-VEO test. The user's own framing is the key insight: since identity and voice consistency are not the bottleneck, **script quality is the primary lever for output quality** — directly reinforcing the existing principle in `docs/NORTH_STAR.md`: "Input quality drives output quality."
+
+---
+
 ## Entry Format
 
 When adding a new knowledge entry:

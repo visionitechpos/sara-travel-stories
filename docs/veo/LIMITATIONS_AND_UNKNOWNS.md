@@ -154,11 +154,9 @@ Veo invents audio — studio laughter, generic music, crowd sounds — when the 
 
 ### Voice inconsistency across separate generations
 
-`[OBSERVED LIMITATION]`
+`[SUPERSEDED BY PRODUCTION EVIDENCE — 2026-07-02]`
 
-Even with identical reference images and character descriptions, Sara's voice may sound different across separately generated clips. This has been observed in multi-clip production workflows.
-
-**Impact on Sara:** Voice consistency is not guaranteed by reference images alone. The audio replacement strategy may be more reliable for long-term character voice consistency.
+This was a general concern noted from outside research before Sara had any real production history. It is contradicted by Sara's own production: voice has remained consistent across multiple separately generated vlogs, per direct user confirmation. See `KNOWLEDGE_LOG.md` KN-002. Kept here as a reminder that this failure mode exists in principle for other Veo projects — but is not currently a problem for Sara.
 
 ---
 
@@ -186,21 +184,17 @@ It is unknown whether the subtitle hallucination problem produces Arabic text, r
 
 ### Reference image — identity stability over many generations
 
-`[UNKNOWN]`
+`[CONFIRMED BY PRODUCTION — 2026-07-02]`
 
-It is not documented how stable Sara's appearance will remain when using the same 3 reference images across 50+ separate clip generations for a full episode. Identity drift over many generations is undocumented.
-
-**Experiment required:** Generate 10 consecutive clips with identical reference images and character descriptions. Measure visual consistency of Sara's face, skin tone, hair, and clothing across all clips.
+Resolved by real production evidence, not a controlled experiment: Sara's visual appearance has remained stable and consistent across multiple separately produced vlogs, per direct user confirmation. Formal 10-clip drift measurement was not run and is no longer treated as a priority — see `KNOWLEDGE_LOG.md` KN-002.
 
 ---
 
 ### Voice consistency via reference images
 
-`[UNKNOWN]`
+`[CONFIRMED BY PRODUCTION — 2026-07-02]`
 
-Whether the same reference images produce the same voice across separate generations is undocumented. Reference images are described as controlling visual identity, not voice.
-
-**Experiment required:** Generate 5 clips with identical reference images and different dialogue. Evaluate whether the voice sounds like the same person across all clips.
+Resolved by real production evidence: Sara's voice has remained consistent across multiple separately produced vlogs, per direct user confirmation. See `KNOWLEDGE_LOG.md` KN-002.
 
 ---
 
