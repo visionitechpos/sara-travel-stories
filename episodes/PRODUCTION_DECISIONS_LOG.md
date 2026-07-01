@@ -10,6 +10,18 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — ep001_fish-sculpture-obhur Script Approved
+
+**Decision:** The script for `ep001_fish-sculpture-obhur` (developed from the PILOT_001 candidate) is approved final, following the full `CLAUDE.md` workflow through Step 4.5: Story Development → Documentation Load → Research (Stages 1-4) → Script → AI dialect/structure review → one human review pass.
+
+**Reason:** This is the first episode to complete the entire production workflow end to end, including the newly adopted principles from this session: "The Story Comes First," the no-institutional-criticism behavioral rule, the restructured five-layer Language Bible, and the Character Cognition Engine conceptual architecture (used as a mental model during writing, not as an execution pipeline).
+
+**Files:** `episodes/ep001_fish-sculpture-obhur/CONCEPT.md`, `episodes/ep001_fish-sculpture-obhur/SCRIPT.md`.
+
+**Note:** The Claude → AI review → human review approval sequence is being treated as an unproven Production Experiment, not a documented production rule. It will be considered for formal documentation only after it proves itself across several episodes.
+
+---
+
 ### 2026-07-01 — Architecture Freeze Through First 10 Episodes
 
 **Decision:** The Character Cognition Engine architecture (`docs/NORTH_STAR.md` D-09) is frozen. No new architectural layers, files, or pipeline changes until 10 episodes are produced — unless production proves a specific, real problem that requires a change.

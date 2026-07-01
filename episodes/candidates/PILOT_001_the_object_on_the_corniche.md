@@ -1,7 +1,8 @@
 # Pilot Episode Candidate — The Object on the Corniche
 
-**Status:** Concept capture. Not in development.
+**Status:** Developed. See `episodes/ep001_fish-sculpture-obhur/`.
 **Captured:** 2026-06-23
+**Developed:** 2026-07-01 — the object was determined to be the fish sculpture at Obhur Waterfront (واجهة أبحر البحرية).
 
 ---
 
