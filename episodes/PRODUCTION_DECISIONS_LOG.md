@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-02 — Landmark Accuracy Elevated to Critical Risk
+
+**Decision:** Verifying a recognizable real landmark (e.g., the Obhur fish sculpture) against its real reference photo — exact shape, position, proportions — is now a mandatory Clip Review Checklist item, not optional polish.
+
+**Reason:** Live test showed the sculpture's position did not match the real reference photo. For Sara specifically, this is critical, not cosmetic: her core premise depends on real Jeddawi locations being accurate, and local viewers who know the landmark precisely will immediately spot a mismatch, breaking the project's central success test (viewers thinking about Sara's subject, not "this is AI-generated").
+
+**Files updated:** `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` (severity elevated to CRITICAL RISK), `docs/veo/SARA_PRODUCTION_GUIDE.md` (Clip Review Checklist — new mandatory item).
+
+---
+
 ### 2026-07-02 — Sara's Face Identity Confirmed Native to Veo Character (No Reference Image Needed)
 
 **Decision:** Stop attaching Sara's face reference image to individual Veo shot prompts. Her identity is preserved automatically by the Veo Character system.

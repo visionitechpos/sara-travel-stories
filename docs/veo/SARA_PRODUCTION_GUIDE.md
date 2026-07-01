@@ -182,6 +182,7 @@ Before any Veo clip is accepted into production:
 
 **Scene:**
 - [ ] Location matches the environment bible description
+- [ ] **CRITICAL — any recognizable real landmark (e.g., the fish sculpture) is checked side-by-side against its real reference photo — exact shape, position, and proportions must match.** A local Jeddah viewer will recognize this landmark precisely; a mismatch is an instant, unrecoverable AI tell. See `LIMITATIONS_AND_UNKNOWNS.md` — "Location/object reference images do not guarantee exact spatial placement."
 - [ ] Lighting is appropriate for the time of day
 - [ ] No anachronistic elements in the background
 

@@ -146,11 +146,13 @@ When using the (undocumented, interface-visible) 10-second duration option, a sh
 
 ### Location/object reference images do not guarantee exact spatial placement
 
-`[OBSERVED LIMITATION — 2026-07-02]`
+`[OBSERVED LIMITATION — CRITICAL RISK — 2026-07-02]`
 
 Using a real photo of the Obhur location (with the sculpture visible) as a reference image did not reproduce the sculpture in the same position as shown in the reference. The generated clip placed it differently.
 
-**Impact on Sara:** A location reference image should be treated as a style/content guide, not a guarantee of exact spatial layout. For shots where the sculpture's exact position matters (e.g., a reveal or a specific framing relative to Sara), this may require additional prompt specificity (explicit relative positioning language) or multiple attempts — not yet tested which fix works.
+**Why this is critical, not cosmetic:** Sara's entire premise depends on real Jeddawi locations being recognizable and accurate (`SARA_ENVIRONMENT_BIBLE.md`, `SARA_PERSONA_BIBLE.md` success test — viewers should think about Sara's subject, never "this is AI-generated"). A local Jeddah viewer knows this landmark precisely. A misplaced or misshapen sculpture is not a minor visual inconsistency — it is an immediate, unrecoverable tell that breaks the entire illusion for exactly the audience this content is made for.
+
+**Impact on Sara:** A location reference image should be treated as a style/content guide, not a guarantee of exact spatial layout or object accuracy. Every clip featuring a real, recognizable landmark must be manually verified against the real reference photo before acceptance — this is now a mandatory Clip Review step, not optional polish. Fixes not yet tested: explicit relative positioning language in the prompt, multiple regeneration attempts, or object-isolated reference images (e.g., the white-background sculpture cutout discussed earlier, not yet produced).
 
 ---
 
