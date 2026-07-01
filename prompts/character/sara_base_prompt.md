@@ -50,7 +50,7 @@ Cinematic quality. Photorealistic.
 ## What NOT to Change
 
 * Sara's face structure and features
-* Her age (late 20s — not younger, not older)
+* Her age (26 — not younger, not older)
 * Her natural, approachable quality
 * The modest, practical clothing style
 

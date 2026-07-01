@@ -19,7 +19,7 @@ They must not be changed without explicit written approval.
 |-----------------|------------------------------|
 | Full Name       | Sara                         |
 | Origin          | Jeddah, Saudi Arabia         |
-| Age             | Pending Approval — log in PRODUCTION_DECISIONS_LOG.md before locking |
+| Age             | 26 — locked, see PRODUCTION_DECISIONS_LOG.md |
 | Profession      | Travel storyteller           |
 | Primary Language| Arabic (conversational)      |
 | Secondary       | Basic English phrases        |

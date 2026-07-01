@@ -10,6 +10,20 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — Documentation Sync: Sara's Age Locked at 26
+
+**Decision:** Sara's age is 26, per a decision made prior to this session. This entry is a documentation synchronization, not a new production decision — the age itself was not reopened or renegotiated.
+
+**Reason:** `SARA_CHARACTER_BIBLE.md` still listed age as "Pending Approval," and `prompts/character/sara_base_prompt.md` referenced "late 20s" as an unapproved placeholder. Both were out of sync with the already-decided value. Reviewed for conflicts across `docs/` and `prompts/` — no other file asserts a specific canonical age for Sara (two illustrative examples in `docs/veo/PROMPT_ENGINEERING.md` reference "a woman in her twenties" generically as prompt-writing technique, not as Sara's locked description — left unchanged).
+
+**Files synced:**
+- `docs/SARA_CHARACTER_BIBLE.md` — Age: Pending Approval → 26
+- `prompts/character/sara_base_prompt.md` — "late 20s" → 26
+
+**Still pending:** Sara's other physical features (hair, eyes, face) remain unapproved placeholders per the existing warning in `sara_base_prompt.md`, until reference images are generated and approved.
+
+---
+
 ### 2026-07-01 — ep001_fish-sculpture-obhur Script Approved
 
 **Decision:** The script for `ep001_fish-sculpture-obhur` (developed from the PILOT_001 candidate) is approved final, following the full `CLAUDE.md` workflow through Step 4.5: Story Development → Documentation Load → Research (Stages 1-4) → Script → AI dialect/structure review → one human review pass.
