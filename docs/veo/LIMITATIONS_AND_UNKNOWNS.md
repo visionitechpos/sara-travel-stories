@@ -20,6 +20,8 @@ Veo generates individual clips, not long-form video. Maximum per generation is 8
 
 **Impact on Sara:** A 3-minute episode requires approximately 22–45 clips depending on duration mix. Post-production assembly is a core part of the workflow, not an afterthought.
 
+**Possible emerging change — `[UNCONFIRMED, 2026-07-02]`:** A "10 seconds" duration option was reported as visible in the Veo interface, not yet reflected in official public documentation (checked via web search — no corroboration found as of this date). Not yet confirmed by an actual successful 10-second generation. Do not rely on this for production planning until tested directly — if confirmed, update this entry and `docs/veo/README.md`.
+
 ---
 
 ### Generated videos are deleted after 2 days
