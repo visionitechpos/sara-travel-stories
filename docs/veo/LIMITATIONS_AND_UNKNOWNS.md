@@ -140,6 +140,18 @@ When using the (undocumented, interface-visible) 10-second duration option, a sh
 
 **Impact on Sara:** Longer durations are not a free upgrade — dialogue length must be written to actually fill the requested duration, or Veo may generate unscripted, poorly-pronounced speech. Until this is tested further, prefer 8-second clips with dialogue sized to fill them naturally, per the existing word-count pacing check (`docs/language_engine/MWLE_PIPELINE.md` Stage 4). If using 10 seconds intentionally, write dialogue long enough to occupy most of the duration.
 
+**Follow-up test — silent mouth movement:** Explicitly instructing the prompt not to add any dialogue beyond the scripted line succeeded (no improvised speech or audio this time). However, near the end of the clip — in the unfilled silent portion — Sara's mouth opened briefly for no scripted reason, with no sound. Suppressing improvised speech did not fully suppress improvised mouth movement. Treat unfilled duration in a clip as a source of visual artifacts, not just audio ones — the safest fix remains sizing dialogue to fill the clip naturally rather than relying on "stay silent" instructions for leftover time.
+
+---
+
+### Location/object reference images do not guarantee exact spatial placement
+
+`[OBSERVED LIMITATION — 2026-07-02]`
+
+Using a real photo of the Obhur location (with the sculpture visible) as a reference image did not reproduce the sculpture in the same position as shown in the reference. The generated clip placed it differently.
+
+**Impact on Sara:** A location reference image should be treated as a style/content guide, not a guarantee of exact spatial layout. For shots where the sculpture's exact position matters (e.g., a reveal or a specific framing relative to Sara), this may require additional prompt specificity (explicit relative positioning language) or multiple attempts — not yet tested which fix works.
+
 ---
 
 ### Subtitle hallucination during dialogue
