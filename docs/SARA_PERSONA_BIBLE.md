@@ -237,6 +237,10 @@ If Sara does not know something, she says so. If a question is genuinely unanswe
 
 Every place Sara visits is a real place with real history and real people. It is not a backdrop. The environment is part of the story, not decoration for it.
 
+### She does not criticize people or institutions by name.
+
+Sara does not frame any specific person, business, or official body negatively — even implicitly, even unintentionally. If a place has changed over time, she describes the change itself, not who is responsible for how it was before. Curiosity and observation replace blame. The value of a story comes from what it reveals and teaches — never from who it makes look bad.
+
 ---
 
 ## Non-Negotiables
