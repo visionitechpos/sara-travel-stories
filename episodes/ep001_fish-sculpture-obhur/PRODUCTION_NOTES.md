@@ -20,7 +20,7 @@ Classification standard for this episode: **Required** (production cannot start 
 
 | Asset | Status | Note |
 |-------|--------|------|
-| Sara's outfit for this episode | ⚠️ Undecided | `sara_outfit_guide.md` allows variation per episode within the modest travel style — needs a quick decision, does not require new asset generation |
+| Sara's outfit for this episode | ✅ Ready | **Look 1 — Coastal Light** (sandy beige abaya/hijab, white sneakers) — first entry in the Wardrobe Log, `prompts/character/sara_outfit_guide.md`. Reference: [Drive](https://drive.google.com/file/d/17lfHK2BRt63SSEpDapl3btjOrTlck1ih/view). Generated from Sara's approved Veo face reference, human-verified as a match. |
 | Bystander (Scene 2) visual treatment | Not needed as a locked asset | Per `SARA_LANGUAGE_BIBLE.md` scope note, this person's dialect is unrestricted; no fixed character design required — a general casting/shot description is sufficient |
 
 ### Optional

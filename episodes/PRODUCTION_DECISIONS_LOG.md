@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — First Wardrobe Look Approved: Look 1 — Coastal Light
+
+**Decision:** Sara's clothing is treated as a fixed, limited wardrobe — approved looks are reused across episodes rather than generating a new outfit every time. "Look 1 — Coastal Light" (sandy beige abaya and hijab, white sneakers) is the first approved entry, generated via ChatGPT using Sara's approved Veo face reference as the base, verified by human review as a genuine match to Sara. Logged in `prompts/character/sara_outfit_guide.md` — Wardrobe Log.
+
+**Reason:** Without a tracked wardrobe, every episode would risk inventing a new outfit, which is unrealistic (a real person doesn't wear something new every single day) and creates unnecessary visual inconsistency across episodes.
+
+**How to apply:** Before generating a wardrobe image for any future episode, check the Wardrobe Log first. Only generate a new look if no existing one fits the location/story. Reference image stored in Google Drive: `Sara Travel Stories - Media/assets/sara/wardrobe/`.
+
+---
+
 ### 2026-07-01 — Media Storage Moved to Google Drive
 
 **Decision:** All image and video assets for production are stored in Google Drive under the `visionitechpos@gmail.com` account, in a folder structure mirroring the repo (`Sara Travel Stories - Media/references/...`, `Sara Travel Stories - Media/episodes/...`). The git repository holds only text and documentation — no image or video binaries going forward.
