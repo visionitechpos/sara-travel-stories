@@ -8,24 +8,22 @@ It does not repeat what is in the other Veo knowledge base documents. It applies
 
 ---
 
-## The Critical Decision Before First Production
+## Decision Resolved — Native Veo Dialogue (2026-07-02)
 
-Before the first Sara clip is generated, one architectural question must be answered through experimentation:
+**Sara speaks through Veo's native dialogue. Audio is not replaced in post-production.**
 
-**Does Sara speak via Veo's native dialogue — or is audio replaced in post-production?**
+This was an open architectural question requiring experimentation (Experiment H-01, never run). It is now resolved by real production evidence instead: Sara's voice — defined natively within her Veo Character (see `SARA_VOICE_BIBLE.md`) — has already been tested successfully across several produced vlogs. H-01 is no longer needed; the question it was designed to answer has been answered by actual production, not a controlled test.
 
-This decision affects everything: workflow, character consistency, dialect quality, and the role of the Language Engine.
-
-| | Native Veo Dialogue | Audio Replacement |
+| | Native Veo Dialogue (chosen) | Audio Replacement (not used) |
 |---|---|---|
-| **How** | Arabic dialogue written in prompt; Veo generates voice | Generate clip visually; process audio through Language Engine; align in post |
-| **Dialect quality** | Unknown — requires experimentation | Controlled — Language Engine processes Hejazi dialect |
-| **Lip sync** | Native, but inconsistent for short segments | Manual alignment — imperfect but predictable |
-| **Subtitle risk** | High — subtitles appear with dialogue | Low — no dialogue trigger, no subtitle generation |
-| **Voice consistency** | Potentially inconsistent across clips | Consistent — same voice source used every time |
-| **Complexity** | Simpler workflow | More production steps |
+| **How** | Arabic dialogue written in prompt; Veo generates voice natively as part of the Character | Generate clip visually; process audio through Language Engine; align in post |
+| **Dialect quality** | Confirmed through multiple successful vlogs | Would have required a separate Language Engine audio pipeline |
+| **Lip sync** | Native | N/A |
+| **Subtitle risk** | Present — see `AUDIO_AND_DIALOGUE.md` workarounds, still required | N/A |
+| **Voice consistency** | Confirmed in production | N/A |
+| **Complexity** | Simpler workflow — voice is bundled with the Character, not a separate step | N/A |
 
-**Recommendation before experimentation:** Test both. Run Experiment H-01 before committing to either approach.
+**What this means for the Language Engine / Character Cognition Engine:** its output (the Final Script) is spoken directly by Veo — there is no downstream audio-replacement stage. The subtitle-suppression techniques in `AUDIO_AND_DIALOGUE.md` remain necessary regardless of this decision.
 
 ---
 
@@ -163,11 +161,11 @@ Before the first full episode, these must be tested:
 
 | Priority | Experiment | Decision It Unlocks |
 |----------|-----------|---------------------|
-| 1 | Arabic Hejazi dialogue quality in Veo | Whether to use native audio or replacement |
-| 2 | Subtitle behavior with Arabic dialogue | How to handle the subtitle problem |
-| 3 | Reference image consistency across 10 clips | Whether reference images are stable enough for production |
-| 4 | Voice consistency across separate generations | Whether voice replacement is necessary |
-| 5 | Prompt rewriter on vs. off | Whether to disable rewriter by default |
+| ~~1~~ | ~~Arabic Hejazi dialogue quality in Veo~~ | **Resolved by production evidence — native audio confirmed, see above. No longer needed.** |
+| 1 | Subtitle behavior with Arabic dialogue | How to handle the subtitle problem |
+| 2 | Reference image consistency across 10 clips | Whether reference images are stable enough for production |
+| 3 | Voice consistency across separate generations — still worth confirming despite native audio being chosen | Whether drift appears across many clips in practice |
+| 4 | Prompt rewriter on vs. off | Whether to disable rewriter by default |
 
 Each experiment must be documented in `docs/language_engine/tests/` following the TEST_RUN format.
 

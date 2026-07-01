@@ -10,6 +10,18 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-02 — Native Veo Dialogue Confirmed as Production Method
+
+**Decision:** Sara speaks through Veo's native voice generation. Audio is not replaced in post-production. This closes the "Native Audio vs. Audio Replacement" question that had been open since the first Veo research phase.
+
+**Reason:** Resolved by real production evidence — native Veo dialogue has already been tested successfully across several produced vlogs, per direct user confirmation. Experiment H-01 (designed to test this via a controlled comparison) is no longer needed and is marked REJECTED in `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` — not because the hypothesis failed, but because production reality answered the question before the experiment was run.
+
+**Files updated:** `docs/veo/SARA_PRODUCTION_GUIDE.md` (decision + Priority Experiments table), `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` (H-01 status), `docs/veo/KNOWLEDGE_LOG.md` (KN-001, first validated entry).
+
+**How to apply:** The Language Engine / Character Cognition Engine's Final Script output is spoken directly by Veo — no downstream audio pipeline exists or is needed. Subtitle-suppression techniques remain necessary regardless of this decision.
+
+---
+
 ### 2026-07-02 — Sync: Veo Character Info (Physical Details + Voice Status)
 
 **Decision:** Synced `SARA_CHARACTER_BIBLE.md` and `SARA_VOICE_BIBLE.md` against the full Character Info text from Sara's approved Veo Character Production.

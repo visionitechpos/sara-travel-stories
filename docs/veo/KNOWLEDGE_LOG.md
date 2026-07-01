@@ -31,9 +31,19 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 
 ## Knowledge Entries
 
-*Empty — awaiting first experiment results.*
+### KN-001 — Native Veo dialogue works reliably for Sara's voice
 
-*First entry will be added after Sprint 1 experiments are run and observations are recorded.*
+| Field | Value |
+|-------|-------|
+| **Status** | VALIDATED |
+| **Confidence** | HIGH |
+| **Source** | Real production — several vlogs already produced and successful (not a controlled EXP-VEO experiment) |
+| **Date added** | 2026-07-02 |
+| **Promoted to** | `docs/veo/SARA_PRODUCTION_GUIDE.md` — "Decision Resolved — Native Veo Dialogue" |
+
+**Observation:** Sara's voice, defined natively within her Veo Character (see `SARA_VOICE_BIBLE.md` approved voice prompt), produces reliable, usable dialogue across multiple already-produced vlogs. No audio replacement pipeline is needed.
+
+**Evidence summary:** Not derived from a designed EXP-VEO test — this is a case of production evidence directly resolving an open question (H-01) faster than the planned experiment would have. H-01 is marked REJECTED in `LIMITATIONS_AND_UNKNOWNS.md` as a result — not because the hypothesis was tested and failed, but because reality answered the question first.
 
 ---
 

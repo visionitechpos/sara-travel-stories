@@ -226,11 +226,9 @@ There is no documented limit on how many Veo clips can be assembled in post-prod
 
 ### H-01 — Arabic audio replacement is more reliable than native generation
 
-`[HYPOTHESIS]`
+`[REJECTED — 2026-07-02, by production evidence, not by running this test]`
 
-For Sara's use case: generating clips visually and replacing Veo's native audio with Language Engine-processed Hejazi audio in post-production will produce more consistent, higher-quality results than relying on Veo's native Arabic dialogue generation.
-
-**Test:** Produce one short Sara script twice — once with Veo native dialogue, once with audio replacement. Compare: dialect quality, pronunciation accuracy, voice consistency, lip-sync quality.
+Resolved without running the planned test: Sara's native Veo voice has already been used successfully across several produced vlogs. Audio replacement is not pursued. See `docs/veo/SARA_PRODUCTION_GUIDE.md` — "Decision Resolved — Native Veo Dialogue."
 
 ---
 
