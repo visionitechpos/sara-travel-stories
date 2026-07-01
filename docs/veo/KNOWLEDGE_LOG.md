@@ -57,6 +57,22 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 | **Date added** | 2026-07-02 |
 | **Promoted to** | `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` — resolves "Reference image identity stability" and "Voice consistency via reference images" |
 
+---
+
+### KN-003 — Sara's face identity persists without an attached reference image, but wardrobe does not
+
+| Field | Value |
+|-------|-------|
+| **Status** | VALIDATED |
+| **Confidence** | MEDIUM (single direct test — EXP-VEO series should confirm across more shots) |
+| **Source** | Live test during ep001_fish-sculpture-obhur production — Shot 1 generated with only the location reference image attached, no Sara reference image |
+| **Date added** | 2026-07-02 |
+| **Promoted to** | Workflow practice for `episodes/ep001_fish-sculpture-obhur/PRODUCTION_BOARD.md` — do not attach Sara's face reference image per shot |
+
+**Observation:** When a shot was generated with only the location/sculpture reference image attached (no Sara reference image), Sara's face and identity were preserved correctly — confirming her identity is carried natively by the Veo Character, not dependent on an attached reference image per generation. However, she appeared in her default outfit (green top) rather than the approved "Look 1 — Coastal Light" wardrobe for this episode — wardrobe is not part of the auto-preserved identity and must be explicitly specified or attached when it differs from the default.
+
+**Evidence summary:** One direct production test, not a designed multi-shot experiment. Confidence is MEDIUM rather than HIGH pending confirmation across more shots. Practical implication: attaching Sara's face reference image is unnecessary and frees a slot in the 3-image Ingredients to Video limit for location, sculpture, or wardrobe references instead.
+
 **Observation:** Sara's face, appearance, and voice have remained consistent across multiple separately produced vlogs — not just within a single generation session. This was previously an open unknown (and, for voice, an observed limitation reported in outside research) for Veo projects generally.
 
 **Evidence summary:** Confirmed directly by the user reviewing their own production history, not a designed EXP-VEO test. The user's own framing is the key insight: since identity and voice consistency are not the bottleneck, **script quality is the primary lever for output quality** — directly reinforcing the existing principle in `docs/NORTH_STAR.md`: "Input quality drives output quality."

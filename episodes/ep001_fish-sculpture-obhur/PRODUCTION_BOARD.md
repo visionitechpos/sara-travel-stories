@@ -10,8 +10,8 @@
 
 | Element | Value |
 |---------|-------|
-| **Character reference** | [sara-face-reference-approved-2026-07-01.jpeg](https://drive.google.com/file/d/1AiheN-J48AZ461S9PGVIb0hkrTlf9kLQ/view) |
-| **Wardrobe** | Look 1 — Coastal Light: [reference](https://drive.google.com/file/d/17lfHK2BRt63SSEpDapl3btjOrTlck1ih/view) |
+| **Character reference** | Not attached per shot — Sara's face identity is preserved natively by the Veo Character (confirmed, `KNOWLEDGE_LOG.md` KN-003). Do not attach her face reference image. |
+| **Wardrobe** | Look 1 — Coastal Light does NOT appear by default — must be explicitly mentioned/attached per shot if needed: [reference](https://drive.google.com/file/d/17lfHK2BRt63SSEpDapl3btjOrTlck1ih/view). Without it, Sara defaults to her base outfit (green top). |
 | **Location reference** | [obhur-waterfront-promenade-01.png](https://drive.google.com/file/d/1afMvJnMjhlDePGBWuAVyv8kfVtJRFiZR/view) |
 | **Sculpture reference** | [obhur-fish-sculpture-sunset-01.webp](https://drive.google.com/file/d/16KuDZ5H0DMm3pDt39hqxqPvj6K6sXMCc/view) — abstract bronze/copper artwork, two forms (tall curved tail shape + shorter triangular finned shape), not a literal fish |
 | **Voice** | Native Veo Character voice (approved prompt — `SARA_VOICE_BIBLE.md`). No audio replacement. |

@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-02 — Sara's Face Identity Confirmed Native to Veo Character (No Reference Image Needed)
+
+**Decision:** Stop attaching Sara's face reference image to individual Veo shot prompts. Her identity is preserved automatically by the Veo Character system.
+
+**Reason:** Live test on ep001 Shot 1 — generated with only the location reference image attached (no Sara reference) — correctly preserved her face and identity. However, her wardrobe defaulted to her base outfit (green top), not the approved "Look 1 — Coastal Light." Wardrobe is not auto-preserved and must be explicitly specified or attached when it differs from default. Logged as `docs/veo/KNOWLEDGE_LOG.md` KN-003 (confidence MEDIUM — single test).
+
+**How to apply:** For ep001 and future episodes, attach only location/sculpture/wardrobe reference images as needed — not Sara's face. This frees a slot in Veo's 3-image Ingredients to Video limit. If a shot needs a specific wardrobe look, mention or attach that look explicitly.
+
+---
+
 ### 2026-07-02 — Visual and Voice Consistency Confirmed Across Generations
 
 **Decision:** Treat Sara's visual identity and voice as reliably consistent across separately generated Veo clips — no longer an open question.
