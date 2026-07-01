@@ -13,8 +13,8 @@ Classification standard for this episode: **Required** (production cannot start 
 | Asset | Status | Note |
 |-------|--------|------|
 | **Sara Character** | ✅ Ready | Sourced from the approved Veo Character Production (visual identity, age 26, voice, character settings). Local repo copy (`assets/sara/`) still needs syncing — tracked separately, does not block this episode. |
-| **Obhur Location Reference** | ❌ Missing | No real reference images exist yet. `SARA_ENVIRONMENT_BIBLE.md` entry is **not** approved on research description alone — real images are required before the environment is considered production-ready. Folder prepared: `/references/jeddah/obhur/`. |
-| **Fish Sculpture Reference** | ❌ Missing | The episode's entire subject. A real reference image is mandatory before any Image Prompt, Storyboard, or video generation — visual mismatch here breaks story credibility and shot-to-shot continuity. No substitute or approximation is acceptable. |
+| **Obhur Location Reference** | ✅ Ready | `references/jeddah/obhur/obhur-waterfront-promenade-01.png` — real photo, no rights concern. `SARA_ENVIRONMENT_BIBLE.md` entry is still not written (per standing practice: no entry from research description alone), but the image requirement for this episode is satisfied. |
+| **Fish Sculpture Reference** | ✅ Ready | Real photos confirm the sculpture is an **abstract bronze/copper artwork** — not a literal fish — two forms: a tall curved piece suggesting a fish tail arcing from the water, and a shorter triangular finned piece with a circular detail, set in a circular fountain. See `references/jeddah/obhur/obhur-fish-sculpture-sunset-01.webp` (primary, wide, no rights concern) and two supplementary night shots. This detail should inform Step 6 image prompts — do not describe it as a literal/cartoon fish. |
 
 ### Recommended
 
@@ -28,6 +28,7 @@ Classification standard for this episode: **Required** (production cannot start 
 | Asset | Status | Note |
 |-------|--------|------|
 | Wide establishing shots of the broader Obhur waterfront redevelopment | Not sourced | Could strengthen the Transformation (secondary) angle visually, not required for the core story |
+| Additional clear daytime sculpture close-up | Available in `assets/temp/images.jfif`, watermarked "Khalid" | Excluded from `/references/` pending rights confirmation — clearest daylight view of the sculpture's true material color, useful for internal reference only until rights are confirmed |
 
 ---
 
@@ -36,8 +37,8 @@ Classification standard for this episode: **Required** (production cannot start 
 - [ ] Sara's appearance reviewed against `SARA_CHARACTER_BIBLE.md` / approved Veo Character
 - [ ] Face consistency confirmed
 - [ ] Outfit decided and appropriate for location and story
-- [ ] Obhur location reference images collected (Required — blocks production)
-- [ ] Fish sculpture reference image collected (Required — blocks production)
+- [x] Obhur location reference images collected (Required — satisfied)
+- [x] Fish sculpture reference image collected (Required — satisfied)
 - [ ] Environment accuracy reviewed against `SARA_ENVIRONMENT_BIBLE.md` once an Obhur entry exists
 
 ### Shots Produced
@@ -78,7 +79,7 @@ Classification standard for this episode: **Required** (production cannot start 
 | File | Location | Notes |
 |------|----------|-------|
 | Script (final) | `episodes/ep001_fish-sculpture-obhur/SCRIPT.md` | Approved |
-| Location references | `/references/jeddah/obhur/` | Folder prepared, empty — Required, blocks production |
+| Location references | `/references/jeddah/obhur/` | 4 real images collected (1 location, 3 sculpture) — Required assets satisfied |
 | Visual assets | `/assets/locations/ep001_fish-sculpture-obhur/` | Not yet created |
 | Voice file | | |
 | Assembled video | | |
