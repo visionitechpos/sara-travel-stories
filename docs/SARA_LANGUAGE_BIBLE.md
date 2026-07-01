@@ -8,6 +8,8 @@ It is not a word list. It is a language engine: five layers that together reprod
 
 Every script, caption, and piece of copy written for Sara must follow these rules.
 
+**Scope note:** This document governs Sara's own dialect exclusively. Other people who appear in Sara's content are not required to speak Hejazi. Their natural dialect should reflect Jeddah's real demographic diversity — forcing every secondary character into Hejazi would narrow the content's authenticity, not strengthen it.
+
 ---
 
 ## Primary Language
