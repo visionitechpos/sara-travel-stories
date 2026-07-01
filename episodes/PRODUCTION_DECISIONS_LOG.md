@@ -10,6 +10,20 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-02 — Sync: Veo Character Info (Physical Details + Voice Status)
+
+**Decision:** Synced `SARA_CHARACTER_BIBLE.md` and `SARA_VOICE_BIBLE.md` against the full Character Info text from Sara's approved Veo Character Production.
+
+**New physical details added (not previously documented):** height ~168cm with balanced proportions, confident upright posture, graceful relaxed body language, natural eye contact, warm smile, relaxed realistic hand gestures while speaking. Added a style nuance: Sara is presentation-conscious as a Jeddawi woman, not just practical.
+
+**Voice status corrected:** `SARA_VOICE_BIBLE.md` said the voice was "not yet formally selected" — this predated confirmation that voice is bundled into the Veo Character (not a separate external TTS model/platform). Documentation sync, not a new decision. The Voice Approval Criteria checklist is still unverified against an actual Veo audio sample — that remains open.
+
+**Flagged, not decided:** voice being native to the Veo Character may resolve the open "native Veo dialogue vs. audio replacement" question in `docs/veo/SARA_PRODUCTION_GUIDE.md` — this is noted as a strategic implication requiring explicit user confirmation, not assumed or auto-resolved here.
+
+**Wardrobe language check:** Character Info describes wardrobe as "intentionally flexible... may vary between episodes." Confirmed compatible with the existing Wardrobe Log system (`sara_outfit_guide.md`) — flexible/context-appropriate reuse, not literally unlimited new outfits. No conflict, no change made.
+
+---
+
 ### 2026-07-01 — Sara's Visual Reference Sync Closed
 
 **Decision:** Sara's approved face reference (`sara-face-reference-approved-2026-07-01.jpeg`, Google Drive `assets/sara/`) is now the confirmed source of truth, replacing the bootstrap-era text placeholder in `sara_base_prompt.md` ("dark hair, brown eyes" — never approved, written before any real reference existed).

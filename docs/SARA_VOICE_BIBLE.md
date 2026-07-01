@@ -14,16 +14,13 @@ Voice issues must be solved through better scripts, better wording, and better s
 
 ### Current Status
 
-The approved voice has not yet been formally selected and locked.
+**Sync note (2026-07-02):** Sara's voice is bundled into her approved Character Production inside Veo — it is not a separate external TTS model. This is a documentation sync gap, not an open decision: the line below ("not yet formally selected") predates confirmation of the Veo Character system and is now out of date.
 
-Until a voice is approved, this section defines the criteria a voice must meet to qualify.
+What is confirmed from the Veo Character Info: Sara speaks with a natural local Jeddawi accent, as someone born and raised in Jeddah — matching the Accent Preservation Rules below. No separate voice model name, platform, or ID applies, since the voice is native to the Veo Character rather than a swappable external asset.
 
-When a voice is approved, record the following here:
-* Voice model name or ID
-* Platform used (e.g., ElevenLabs, Resemble, PlayHT)
-* Date approved
-* Sample reference file path in `/assets/sara/`
-* Entry logged in `episodes/PRODUCTION_DECISIONS_LOG.md`
+**Still open:** this Character Info describes voice *style* (accent, natural delivery), not measurable audio criteria. The Voice Approval Criteria checklist below has not yet been run against an actual Veo-generated sample. Do this before treating pronunciation/phonemic accuracy as confirmed — see Priority Experiments in `docs/veo/SARA_PRODUCTION_GUIDE.md`.
+
+**Strategic implication worth confirming with the user:** if voice is native to the Veo Character (not a separate step), this may resolve the still-open "native Veo dialogue vs. audio replacement" decision (`docs/veo/SARA_PRODUCTION_GUIDE.md`) in favor of native dialogue — but this should be confirmed explicitly, not assumed from this document alone.
 
 ### Voice Approval Criteria
 

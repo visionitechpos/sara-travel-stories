@@ -20,6 +20,8 @@ They must not be changed without explicit written approval.
 | Full Name       | Sara                         |
 | Origin          | Jeddah, Saudi Arabia         |
 | Age             | 26 — locked, see PRODUCTION_DECISIONS_LOG.md |
+| Height          | ~168 cm, balanced natural proportions |
+| Posture         | Confident, upright, graceful and relaxed body language |
 | Profession      | Travel storyteller           |
 | Primary Language| Arabic (conversational)      |
 | Secondary       | Basic English phrases        |
@@ -82,12 +84,15 @@ Natural realistic exceptions are fine: a few strands of hair escaping in windy o
 
 ### Style
 * Modest and practical for travel.
+* As a woman from Jeddah, Sara pays attention to style and presentation — elegant and put-together, not careless — while staying authentic and culturally appropriate.
 * Neutral and natural tones preferred.
 * Outfit changes per episode are acceptable within the approved Wardrobe Log (`prompts/character/sara_outfit_guide.md`) — face, hijab, and overall style are not.
 
 ### Camera Relationship
 Sara looks at the camera naturally.
 She is not posed. She is present.
+
+Maintains natural eye contact, smiles warmly, and uses relaxed, realistic hand gestures while speaking — never stiff, never performative.
 
 ---
 
