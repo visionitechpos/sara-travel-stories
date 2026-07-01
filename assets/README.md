@@ -2,6 +2,8 @@
 
 This folder contains all visual assets, character images, and project resources.
 
+**Storage policy (since 2026-07-01):** Actual image and video files live in Google Drive (`visionitechpos@gmail.com`, root folder "Sara Travel Stories - Media"), mirroring this folder structure — see `episodes/PRODUCTION_DECISIONS_LOG.md` ("Media Storage Moved to Google Drive"). This repo keeps structure and documentation only.
+
 ---
 
 ## Folder Structure
@@ -22,11 +24,11 @@ assets/
 
 ## Sara Assets (LOCKED)
 
-The `/sara/` subfolder should contain the approved character reference images.
+The `/sara/` subfolder corresponds to the Google Drive folder holding the approved character reference images.
 
-**Sync status:** Sara has an approved Character Production inside Veo (visual identity, age 26, core features, voice, character settings) — this is the current production reference. This folder is not yet synced with it (currently empty aside from `.gitkeep`). This is a documentation/asset sync gap, not an open decision — the images or spec need to be exported from Veo and placed here, not recreated from scratch.
+**Sync status: complete (2026-07-01).** Primary reference: [sara-face-reference-approved-2026-07-01.jpeg](https://drive.google.com/file/d/1AiheN-J48AZ461S9PGVIb0hkrTlf9kLQ/view). Wardrobe references live in the `sara/wardrobe/` subfolder in Drive — see `prompts/character/sara_outfit_guide.md` Wardrobe Log.
 
-Once synced, these files are the source of truth for Sara's visual identity.
+These Drive files are the source of truth for Sara's visual identity.
 
 **Rules:**
 * Do not modify approved Sara images.

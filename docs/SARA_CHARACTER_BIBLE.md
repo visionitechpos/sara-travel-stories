@@ -71,12 +71,17 @@ Sara's face is the anchor of the project. It must remain consistent across all c
 
 Do not generate new face variations without explicit approval.
 
-Use the approved reference images as the source of truth.
+Use the approved reference images as the source of truth: [sara-face-reference-approved-2026-07-01.jpeg](https://drive.google.com/file/d/1AiheN-J48AZ461S9PGVIb0hkrTlf9kLQ/view) (Google Drive — see `assets/README.md` for storage policy).
+
+**Observed features (from the approved reference — not invented):** warm olive/tan skin tone, dark thick eyebrows, brown eyes, warm approachable smile, small gold stud earrings. Hair is not a visible identity marker — see Hijab note below.
+
+### Hijab
+Sara is consistently depicted wearing a hijab. This is now a fixed identity feature, not a per-episode wardrobe choice — do not generate her without one.
 
 ### Style
 * Modest and practical for travel.
 * Neutral and natural tones preferred.
-* Outfit changes per episode are acceptable — face and overall style are not.
+* Outfit changes per episode are acceptable within the approved Wardrobe Log (`prompts/character/sara_outfit_guide.md`) — face, hijab, and overall style are not.
 
 ### Camera Relationship
 Sara looks at the camera naturally.
