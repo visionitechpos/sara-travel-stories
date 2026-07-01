@@ -177,6 +177,25 @@ Never skip this step.
 
 ---
 
+## Step 3.5 — Research
+
+Before any script is written, complete the full research workflow defined in `docs/STORY_RESEARCH_RULES.md`:
+
+1. **Subject Survey** — understand the general shape of the subject
+2. **Story Discovery** — find the genuine, unanswered question (the narrative question)
+3. **Thread Research** — gather sourced facts specific to that question, using the Source Hierarchy (Tier 1–4)
+4. **Gap Identification** — map what is confirmed, contested, unknown, or irrelevant
+
+Apply the Research Completion Test from `STORY_RESEARCH_RULES.md` before proceeding. All five conditions must be met.
+
+Apply `docs/STORY_FRAMEWORK.md` — "The Story Comes First": if research does not surface a distinctive fact, this is not a failure. It does not lower the research bar — it means an absent striking fact is not a reason to invent one.
+
+**Gate:** Per `docs/SARA_PRODUCTION_RULES.md` Stage 1–2, no script may be written until the gap map is complete. This step exists to keep `CLAUDE.md` and `SARA_PRODUCTION_RULES.md` in alignment — it is not a new production requirement, it corrects an existing gap between the two documents.
+
+Wait for approval on the research findings and gap map before proceeding to Step 4.
+
+---
+
 ## Step 4 — Create the Script
 
 Split the episode into Scenes.
@@ -356,6 +375,10 @@ Idea
 Documentation Review
 ↓
 Story Development
+↓
+Documentation Loaded
+↓
+Research (Gap Map Complete)
 ↓
 Script (MSA Draft)
 ↓
