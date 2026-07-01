@@ -12,15 +12,29 @@ Voice issues must be solved through better scripts, better wording, and better s
 
 ## Approved Voice Profile
 
-### Current Status
+### Current Status — Approved (2026-07-02)
 
-**Sync note (2026-07-02):** Sara's voice is bundled into her approved Character Production inside Veo — it is not a separate external TTS model. This is a documentation sync gap, not an open decision: the line below ("not yet formally selected") predates confirmation of the Veo Character system and is now out of date.
+Sara's voice is defined natively within her approved Veo Character Production — not a separate external TTS model, platform, or ID. The approved voice profile is the following prompt, used directly by Veo:
 
-What is confirmed from the Veo Character Info: Sara speaks with a natural local Jeddawi accent, as someone born and raised in Jeddah — matching the Accent Preservation Rules below. No separate voice model name, platform, or ID applies, since the voice is native to the Veo Character rather than a swappable external asset.
+```
+Native Saudi female voice from Jeddah. Natural local Jeddawi accent. 
+Warm, friendly, and conversational. Sounds like a real woman from 
+Jeddah speaking naturally with friends. Medium speaking pace, clear 
+pronunciation, relaxed energy, approachable and authentic.
 
-**Still open:** this Character Info describes voice *style* (accent, natural delivery), not measurable audio criteria. The Voice Approval Criteria checklist below has not yet been run against an actual Veo-generated sample. Do this before treating pronunciation/phonemic accuracy as confirmed — see Priority Experiments in `docs/veo/SARA_PRODUCTION_GUIDE.md`.
+Slightly soft voice with gentle warmth and subtle expressiveness. Calm 
+and confident, with natural emotional variation when sharing interesting 
+stories or discoveries. Sounds intelligent, curious, and welcoming.
 
-**Strategic implication worth confirming with the user:** if voice is native to the Veo Character (not a separate step), this may resolve the still-open "native Veo dialogue vs. audio replacement" decision (`docs/veo/SARA_PRODUCTION_GUIDE.md`) in favor of native dialogue — but this should be confirmed explicitly, not assumed from this document alone.
+Avoid Modern Standard Arabic delivery, avoid news presenter style, avoid 
+commercial voice-over style, avoid generic Gulf accent, avoid exaggerated 
+acting, avoid influencer-style performance. Natural storytelling voice 
+with realistic human speech patterns and authentic Jeddah character.
+```
+
+This matches — with no conflicts — every quality already defined below (Voice Character, Qualities to Preserve, Accent Preservation Rules) and the persona rules against presenter/influencer performance. Confirmed 2026-07-02, logged in `episodes/PRODUCTION_DECISIONS_LOG.md`.
+
+**Still open:** the Voice Approval Criteria checklist below (phonemic accuracy, longevity test) has not yet been run against an actual Veo-generated audio sample — this prompt defines the intended voice, not a verified recording. Do this before treating pronunciation accuracy as confirmed — see Priority Experiments in `docs/veo/SARA_PRODUCTION_GUIDE.md`.
 
 ### Voice Approval Criteria
 
