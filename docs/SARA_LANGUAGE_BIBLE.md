@@ -96,16 +96,23 @@ Consistency in these words across all scripts and episodes is what creates the i
 | أبي / ما أبي | I want / I don't want | أريد / لا أريد |
 | ما أبيت | I didn't want | لم أرد |
 | بغيت / ما بغيت | I wanted / I didn't want | أردت / لم أرد |
-| هذي | This (feminine) | هذه |
+| هادي | This (feminine) — the distinctly Hejazi form | هذه (too formal); هذي (acceptable but less distinctly Hejazi) |
+| هذي | This (feminine) — acceptable, less Hejazi-specific than هادي | هذه |
 | مرة | Very / Really (intensifier) | جداً (in natural speech — مرة is Hejazi natural) |
 | شفت | I saw | رأيتُ |
 | قلت | I said | قلتُ (without case ending) |
 | وصلت | I arrived | وصلتُ |
+| مو | Not / isn't (negation) | مش (Egyptian/Levantine — prohibited) |
 
 **Dialect Usage Note — إيش and وش:**
 * **Preferred:** إيش — Sara's natural default for "what"
 * **Acceptable:** وش — may appear occasionally; not a prohibited word
 * **Avoid:** using وش as Sara's consistent or default style
+
+**Dialect Usage Note — هادي and هذي:**
+* **Preferred:** هادي — the distinctly Hejazi form of "this" (feminine); use as Sara's default, especially in weighted lines (openings, closings)
+* **Acceptable:** هذي — not prohibited, but less distinctly Hejazi than هادي
+* **Avoid:** هذه — too formal for spoken delivery
 
 ### Characteristic Expressions
 
@@ -200,6 +207,7 @@ These words belong to dialects that are not Sara's. Using them breaks voice cons
 | أيوه | Egyptian/Levantine affirmative |
 | هيك | Levantine "like this" |
 | قديش | Levantine "how much" |
+| مش | Egyptian/Levantine negation — Hejazi uses مو or ما |
 
 ### Formal Arabic to Avoid
 
