@@ -20,7 +20,7 @@ Veo generates individual clips, not long-form video. Maximum per generation is 8
 
 **Impact on Sara:** A 3-minute episode requires approximately 22–45 clips depending on duration mix. Post-production assembly is a core part of the workflow, not an afterthought.
 
-**Possible emerging change — `[UNCONFIRMED, 2026-07-02]`:** A "10 seconds" duration option was reported as visible in the Veo interface, not yet reflected in official public documentation (checked via web search — no corroboration found as of this date). Not yet confirmed by an actual successful 10-second generation. Do not rely on this for production planning until tested directly — if confirmed, update this entry and `docs/veo/README.md`.
+**Update — `[CONFIRMED BY TEST, 2026-07-02]`:** A 10-second duration option exists in the Veo interface (not yet reflected in official public documentation) and successfully generated a clip — the account's hard cap is not strictly 8 seconds. However, this revealed a new risk: see "10-second clips risk hallucinated dialogue when the script is too short" below. See `KNOWLEDGE_LOG.md` KN-004.
 
 ---
 
@@ -131,6 +131,16 @@ In EU, UK, CH, and MENA regions, the `personGeneration` parameter is restricted 
 ---
 
 ## Observed Limitations
+
+### 10-second clips risk hallucinated dialogue when the script is too short
+
+`[OBSERVED LIMITATION — 2026-07-02]`
+
+When using the (undocumented, interface-visible) 10-second duration option, a short scripted line (e.g., 4 words, ~2 seconds of natural speech) left several seconds of the clip unfilled by the script. Veo appears to have improvised additional spoken dialogue to fill the remaining time, with incorrect pronunciation on the improvised portion.
+
+**Impact on Sara:** Longer durations are not a free upgrade — dialogue length must be written to actually fill the requested duration, or Veo may generate unscripted, poorly-pronounced speech. Until this is tested further, prefer 8-second clips with dialogue sized to fill them naturally, per the existing word-count pacing check (`docs/language_engine/MWLE_PIPELINE.md` Stage 4). If using 10 seconds intentionally, write dialogue long enough to occupy most of the duration.
+
+---
 
 ### Subtitle hallucination during dialogue
 

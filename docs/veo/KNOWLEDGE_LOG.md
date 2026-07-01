@@ -69,6 +69,22 @@ Every entry must reference the experiments that produced it. Nothing here is a h
 | **Date added** | 2026-07-02 |
 | **Promoted to** | Workflow practice for `episodes/ep001_fish-sculpture-obhur/PRODUCTION_BOARD.md` — face reference never needed; wardrobe reference required only when a non-default look is needed |
 
+---
+
+### KN-004 — A 10-second duration option exists but risks hallucinated dialogue if the script is too short
+
+| Field | Value |
+|-------|-------|
+| **Status** | VALIDATED (existence of the option) / OBSERVATION (the hallucination risk — needs more tests) |
+| **Confidence** | MEDIUM |
+| **Source** | Live test during ep001_fish-sculpture-obhur production, Shot 3 — 10-second option selected, 4-word script |
+| **Date added** | 2026-07-02 |
+| **Promoted to** | `docs/veo/LIMITATIONS_AND_UNKNOWNS.md` — new Observed Limitation |
+
+**Observation:** A 10-second generation option exists in the Veo interface and produced a clip successfully — this is longer than the 8-second cap in official documentation. However, the scripted dialogue (~2 seconds of natural speech) did not fill the 10-second duration, and Veo appears to have improvised additional unscripted dialogue with incorrect pronunciation to fill the remaining time.
+
+**Evidence summary:** Single test. The 10-second option's existence is confirmed directly. The hallucination-when-underfilled pattern is a first observation — needs repetition with a dialogue line deliberately sized to fill 10 seconds before treating the "10s needs longer scripts" conclusion as fully validated.
+
 **Observation:** When a shot was generated with only the location/sculpture reference image attached (no Sara reference image), Sara's face and identity were preserved correctly — confirming her identity is carried natively by the Veo Character, not dependent on an attached reference image per generation. However, she appeared in her default outfit (green top) rather than the approved "Look 1 — Coastal Light" wardrobe for this episode — wardrobe is not part of the auto-preserved identity and must be explicitly specified or attached when it differs from the default.
 
 **Evidence summary:** One direct production test, not a designed multi-shot experiment. Confidence is MEDIUM rather than HIGH pending confirmation across more shots. Practical implication: attaching Sara's face reference image is unnecessary and frees a slot in the 3-image Ingredients to Video limit for location, sculpture, or wardrobe references instead.
