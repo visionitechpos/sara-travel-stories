@@ -10,6 +10,16 @@ Format: date, decision, reason.
 
 ## Log
 
+### 2026-07-01 — Sara's Visual Reference Sync Closed
+
+**Decision:** Sara's approved face reference (`sara-face-reference-approved-2026-07-01.jpeg`, Google Drive `assets/sara/`) is now the confirmed source of truth, replacing the bootstrap-era text placeholder in `sara_base_prompt.md` ("dark hair, brown eyes" — never approved, written before any real reference existed).
+
+**Reason:** Closes a documentation sync gap flagged repeatedly during this production cycle (architecture audit, Step 5 asset review). Confirmed observed features: warm olive/tan skin tone, dark thick eyebrows, brown eyes, warm approachable smile. Confirmed the hijab as a fixed identity feature — she is never depicted without one, which was not previously locked in documentation.
+
+**Files updated:** `docs/SARA_CHARACTER_BIBLE.md`, `prompts/character/sara_base_prompt.md`, `assets/README.md`.
+
+---
+
 ### 2026-07-01 — First Wardrobe Look Approved: Look 1 — Coastal Light
 
 **Decision:** Sara's clothing is treated as a fixed, limited wardrobe — approved looks are reused across episodes rather than generating a new outfit every time. "Look 1 — Coastal Light" (sandy beige abaya and hijab, white sneakers) is the first approved entry, generated via ChatGPT using Sara's approved Veo face reference as the base, verified by human review as a genuine match to Sara. Logged in `prompts/character/sara_outfit_guide.md` — Wardrobe Log.
